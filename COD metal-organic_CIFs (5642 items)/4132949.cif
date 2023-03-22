@@ -1,0 +1,259 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-11-26 06:21:03 +0200 (Tue, 26 Nov 2019) $
+#$Revision: 242810 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/4/13/29/4132949.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4132949
+loop_
+_publ_author_name
+'Lin, Rui-Biao'
+'Wu, Hui'
+'Li, Libo'
+'Tang, Xiao-Liang'
+'Li, Zhiqiang'
+'Gao, Junkuo'
+'Cui, Hui'
+'Zhou, Wei'
+'Chen, Banglin'
+_publ_section_title
+;
+ Boosting Ethane/Ethylene Separation within Isoreticular Ultramicroporous
+ Metal-Organic Frameworks.
+;
+_journal_issue                   40
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              12940
+_journal_page_last               12946
+_journal_paper_doi               10.1021/jacs.8b07563
+_journal_volume                  140
+_journal_year                    2018
+_chemical_formula_sum            'C20.31 H12 Cu D0.62 N2 O4'
+_chemical_formula_weight         412.81
+_space_group_IT_number           14
+_space_group_name_Hall           '-P 2ybc'
+_space_group_name_H-M_alt        'P 1 21/c 1'
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_audit_creation_date             2018-05-03T13:09
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 93.640(7)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            2
+_cell_length_a                   5.6951(5)
+_cell_length_b                   10.9729(13)
+_cell_length_c                   14.5655(12)
+_cell_measurement_temperature    297
+_cell_volume                     908.39(15)
+_computing_structure_refinement  GSAS
+_diffrn_ambient_temperature      297
+_diffrn_measurement_device_type  'BT-1 neutron powder diffractometer'
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_wavelength     2.0774
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  1.00000
+_pd_calc_method                  'Rietveld Refinement'
+_pd_meas_2theta_range_inc        0.05
+_pd_meas_2theta_range_max        166.25
+_pd_meas_2theta_range_min        3.0
+_pd_meas_number_of_points        3266
+_pd_phase_name                   Cu(Qc)2_C2D4
+_pd_proc_2theta_range_inc        0.05
+_pd_proc_2theta_range_max        166.2801
+_pd_proc_2theta_range_min        3.0301
+_pd_proc_info_datetime           2018-05-03T13:09:14
+_pd_proc_ls_peak_cutoff          0.00500
+_pd_proc_ls_prof_R_factor        0.0126
+_pd_proc_ls_prof_wR_expected     0.0152
+_pd_proc_ls_prof_wR_factor       0.0150
+_pd_proc_number_of_points        3266
+_refine_ls_goodness_of_fit_all   0.99
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     15
+_refine_ls_number_restraints     0
+_refine_ls_R_Fsqd_factor         0.07449
+_refine_ls_shift/su_max          0.04
+_refine_ls_shift/su_mean         0.02
+_reflns_d_resolution_high        1.061
+_reflns_d_resolution_low         8.758
+_reflns_limit_h_max              5
+_reflns_limit_h_min              0
+_reflns_limit_k_max              10
+_reflns_limit_k_min              0
+_reflns_limit_l_max              13
+_reflns_limit_l_min              -13
+_reflns_number_total             801
+_cod_data_source_file            ja8b07563_si_003.cif
+_cod_data_source_block           CuQc2_0_16C2D4
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_geom_angle_publ_flag' value 'N' was changed to 'n' in
+accordance with the
+/home/saulius/struct/COD-crude-data/automatic-downloads/DataCite-retrospective/ACS/depositions/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 last updated on
+2011-04-26 (44 times).
+
+data item '_geom_bond_publ_flag' value 'N' was changed to 'n' in
+accordance with the
+/home/saulius/struct/COD-crude-data/automatic-downloads/DataCite-retrospective/ACS/depositions/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 last updated on
+2011-04-26 (29 times).
+
+Automatic conversion script
+Id: cif_fix_values 6909 2019-04-08 15:41:33Z antanas 
+;
+_cod_original_cell_volume        908.39(16)
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               4132949
+_gsas_exptl_extinct_corr_t_min   1.00000
+_gsas_exptl_extinct_corr_t_max   1.00000
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y+1/2,-z+1/2
+-1 -x,-y,-z
+-2 +x,-y+1/2,+z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+C C4 0.0901(7) 0.75482(34) 0.22692(25) 1.0 Uiso 0.04008 4
+C C5 0.1302(7) 0.65958(34) 0.16202(25) 1.0 Uiso 0.04008 4
+C C3 -0.0933(7) 0.83537(34) 0.20562(25) 1.0 Uiso 0.04008 4
+C C1 -0.1954(7) 0.71791(34) 0.06929(25) 1.0 Uiso 0.04008 4
+C C2 -0.2354(7) 0.81826(34) 0.12660(25) 1.0 Uiso 0.04008 4
+C C6 0.3286(7) 0.58229(34) 0.17474(25) 1.0 Uiso 0.04008 4
+C C7 0.4817(7) 0.59707(34) 0.25126(25) 1.0 Uiso 0.04008 4
+C C8 0.4401(7) 0.68692(34) 0.31758(25) 1.0 Uiso 0.04008 4
+C C9 0.2470(7) 0.76414(34) 0.30767(25) 1.0 Uiso 0.04008 4
+C C10 0.2118(7) 0.85264(34) 0.38537(25) 1.0 Uiso 0.04008 4
+H H11 -0.3132(7) 0.69734(34) 0.00903(25) 1.0 Uiso 0.06624 4
+H H12 -0.3827(7) 0.87932(34) 0.10900(25) 1.0 Uiso 0.06624 4
+H H13 -0.1266(7) 0.90935(34) 0.25280(25) 1.0 Uiso 0.06624 4
+H H14 0.3617(7) 0.51310(34) 0.12335(25) 1.0 Uiso 0.06624 4
+H H15 0.6372(7) 0.53889(34) 0.26029(25) 1.0 Uiso 0.06624 4
+H H16 0.5614(7) 0.69828(34) 0.37799(25) 1.0 Uiso 0.06624 4
+N N17 -0.0168(7) 0.64145(34) 0.08673(25) 1.0 Uiso 0.03867 4
+O O18 0.0136(28) 0.8854(14) 0.3954(10) 1.0 Uiso 0.03632 4
+O O19 0.3626(30) 0.8849(14) 0.4371(11) 1.0 Uiso 0.06183 4
+Cu Cu20 0.0 0.5 0.0 1.0 Uiso 0.03119 2
+C C21 -0.098(18) 0.487(10) 0.466(9) 0.0770(25) Uiso 0.01613 4
+C C22 0.031(18) 0.552(10) 0.528(9) 0.0770(25) Uiso 0.01613 4
+D D23 -0.145(18) 0.522(10) 0.397(9) 0.0770(25) Uiso 0.02521 4
+D D24 0.095(18) 0.643(10) 0.511(9) 0.0770(25) Uiso 0.02521 4
+D D25 -0.162(18) 0.397(10) 0.483(9) 0.0770(25) Uiso 0.02521 4
+D D26 0.078(18) 0.517(10) 0.597(9) 0.0770(25) Uiso 0.02521 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+_atom_type_scat_length_neutron
+_atom_type_scat_source
+C 40.616 0.6646 International_Tables_Vol_C
+H 24.0 -0.3739 International_Tables_Vol_C
+N 4.0 0.9360 International_Tables_Vol_C
+O 8.0 0.5803 International_Tables_Vol_C
+Cu 2.0 0.7718 International_Tables_Vol_C
+D 1.232 0.6671 International_Tables_Vol_C
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+C5 C4 C3 117.689(6) 1_555 1_555 n
+C5 C4 C9 118.319(4) 1_555 1_555 n
+C3 C4 C9 123.941(5) 1_555 1_555 n
+C4 C5 C6 120.559(6) 1_555 1_555 n
+C4 C5 N17 121.656(4) 1_555 1_555 n
+C6 C5 N17 117.780(5) 1_555 1_555 n
+C4 C3 C2 119.598(5) 1_555 1_555 n
+C4 C3 H13 119.519(6) 1_555 1_555 n
+C2 C3 H13 120.849(4) 1_555 1_555 n
+C2 C1 H11 121.506(4) 1_555 1_555 n
+C2 C1 N17 122.014(6) 1_555 1_555 n
+H11 C1 N17 116.457(6) 1_555 1_555 n
+C3 C2 C1 119.539(4) 1_555 1_555 n
+C3 C2 H12 120.975(5) 1_555 1_555 n
+C1 C2 H12 119.445(6) 1_555 1_555 n
+C5 C6 C7 119.551(5) 1_555 1_555 n
+C5 C6 H14 119.885(6) 1_555 1_555 n
+C7 C6 H14 120.549(4) 1_555 1_555 n
+C6 C7 C8 120.682(4) 1_555 1_555 n
+C6 C7 H15 119.598(5) 1_555 1_555 n
+C8 C7 H15 119.719(6) 1_555 1_555 n
+C7 C8 C9 121.431(6) 1_555 1_555 n
+C7 C8 H16 120.446(4) 1_555 1_555 n
+C9 C8 H16 118.118(5) 1_555 1_555 n
+C4 C9 C8 119.315(5) 1_555 1_555 n
+C4 C9 C10 123.599(4) 1_555 1_555 n
+C8 C9 C10 117.072(6) 1_555 1_555 n
+C9 C10 O18 116.9(7) 1_555 1_555 n
+C9 C10 O19 123.5(8) 1_555 1_555 n
+O18 C10 O19 119.4(10) 1_555 1_555 n
+C5 N17 C1 119.252(5) 1_555 1_555 n
+C5 N17 Cu20 124.95(11) 1_555 1_555 n
+C1 N17 Cu20 115.70(11) 1_555 1_555 n
+C10 O18 Cu20 111.5(9) 1_555 2_555 n
+N17 Cu20 N17 180.0 1_555 -1_565 n
+N17 Cu20 O18 90.1(4) 1_555 2_545 n
+N17 Cu20 O18 89.9(4) 1_555 -2_564 n
+O18 Cu20 O18 180.0 1_454 -1_666 n
+C22 C21 D23 121.591(6) 1_555 1_555 n
+C22 C21 D25 121.258(4) 1_555 1_555 n
+D23 C21 D25 117.1510(32) 1_555 1_555 n
+C21 C22 D24 120.924(5) 1_555 1_555 n
+C21 C22 D26 121.296(6) 1_555 1_555 n
+D24 C22 D26 117.7801(32) 1_555 1_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+C1 C2 1.40899(11) 1_555 n
+C1 H11 1.09381(9) 1_555 n
+C1 N17 1.33079(10) 1_555 n
+C2 C3 1.37724(12) 1_555 n
+C2 H12 1.09113(8) 1_555 n
+C3 C4 1.38828(10) 1_555 n
+C3 H13 1.08796(8) 1_555 n
+C4 C5 1.43711(11) 1_555 n
+C4 C9 1.43471(13) 1_555 n
+C5 C6 1.41574(11) 1_555 n
+C5 N17 1.35132(12) 1_555 n
+C6 C7 1.38004(12) 1_555 n
+C6 H14 1.09090(8) 1_555 n
+C7 C8 1.41086(10) 1_555 n
+C7 H15 1.09293(8) 1_555 n
+C8 C9 1.38860(10) 1_555 n
+C8 H16 1.09096(10) 1_555 n
+C9 C10 1.51417(10) 1_555 n
+C10 O18 1.203(17) 1_555 n
+C10 O19 1.161(17) 1_555 n
+Cu20 N17 2.007(4) 1_555 n
+Cu20 N17 2.007(4) -1_565 n
+Cu20 O18 1.980(15) 2_545 n
+Cu20 O18 1.980(15) -2_564 n
+C21 C22 1.33170(10) 1_555 n
+C21 D23 1.09343(8) 1_555 n
+C21 D25 1.08887(11) 1_555 n
+C22 D24 1.09379(11) 1_555 n
+C22 D26 1.09635(8) 1_555 n

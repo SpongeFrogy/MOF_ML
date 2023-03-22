@@ -1,0 +1,238 @@
+#------------------------------------------------------------------------------
+#$Date: 2022-09-15 02:29:21 +0300 (Thu, 15 Sep 2022) $
+#$Revision: 277856 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/4/10/06/4100631.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4100631
+loop_
+_publ_author_name
+'Andrea C. Sudik'
+'Andrew R. Millward'
+'Nathan W. Ockwig'
+'Adrien P. Cote'
+'Jaheon Kim'
+'Omar M. Yaghi'
+_publ_section_title
+;
+Design, Synthesis, Structure, and Gas (N2, Ar, CO2, CH4 and H2)
+Sorption Properties of Porous Metal-Organic Tetrahedral and
+Heterocuboidal Polyhedra
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_paper_doi               10.1021/ja042802q
+_journal_year                    2005
+_chemical_formula_moiety         'C108 H84 Fe12 N12 O76 S12'
+_chemical_formula_sum            'C108 H84 Fe12 N12 O76 S12'
+_chemical_formula_weight         3820.79
+_chemical_name_common            IRMOP-50
+_space_group_IT_number           216
+_space_group_name_Hall           'F -4 2 3'
+_space_group_name_H-M_alt        'F -4 3 m'
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  'F -4 2 3'
+_symmetry_space_group_name_H-M   'F -4 3 m'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   32.6504(13)
+_cell_length_b                   32.6504(13)
+_cell_length_c                   32.6504(13)
+_cell_measurement_temperature    258(2)
+_cell_volume                     34807(2)
+_diffrn_ambient_temperature      258(2)
+_exptl_crystal_density_diffrn    0.729
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Cubic' changed to 'cubic' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_sg_symbol_Hall     F-423
+_cod_database_code               4100631
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z'
+'-x, y, -z'
+'x, -y, -z'
+'z, x, y'
+'z, -x, -y'
+'-z, -x, y'
+'-z, x, -y'
+'y, z, x'
+'-y, z, -x'
+'y, -z, -x'
+'-y, -z, x'
+'y, x, z'
+'-y, -x, z'
+'y, -x, -z'
+'-y, x, -z'
+'x, z, y'
+'-x, z, -y'
+'-x, -z, y'
+'x, -z, -y'
+'z, y, x'
+'z, -y, -x'
+'-z, y, -x'
+'-z, -y, x'
+'x, y+1/2, z+1/2'
+'-x, -y+1/2, z+1/2'
+'-x, y+1/2, -z+1/2'
+'x, -y+1/2, -z+1/2'
+'z, x+1/2, y+1/2'
+'z, -x+1/2, -y+1/2'
+'-z, -x+1/2, y+1/2'
+'-z, x+1/2, -y+1/2'
+'y, z+1/2, x+1/2'
+'-y, z+1/2, -x+1/2'
+'y, -z+1/2, -x+1/2'
+'-y, -z+1/2, x+1/2'
+'y, x+1/2, z+1/2'
+'-y, -x+1/2, z+1/2'
+'y, -x+1/2, -z+1/2'
+'-y, x+1/2, -z+1/2'
+'x, z+1/2, y+1/2'
+'-x, z+1/2, -y+1/2'
+'-x, -z+1/2, y+1/2'
+'x, -z+1/2, -y+1/2'
+'z, y+1/2, x+1/2'
+'z, -y+1/2, -x+1/2'
+'-z, y+1/2, -x+1/2'
+'-z, -y+1/2, x+1/2'
+'x+1/2, y, z+1/2'
+'-x+1/2, -y, z+1/2'
+'-x+1/2, y, -z+1/2'
+'x+1/2, -y, -z+1/2'
+'z+1/2, x, y+1/2'
+'z+1/2, -x, -y+1/2'
+'-z+1/2, -x, y+1/2'
+'-z+1/2, x, -y+1/2'
+'y+1/2, z, x+1/2'
+'-y+1/2, z, -x+1/2'
+'y+1/2, -z, -x+1/2'
+'-y+1/2, -z, x+1/2'
+'y+1/2, x, z+1/2'
+'-y+1/2, -x, z+1/2'
+'y+1/2, -x, -z+1/2'
+'-y+1/2, x, -z+1/2'
+'x+1/2, z, y+1/2'
+'-x+1/2, z, -y+1/2'
+'-x+1/2, -z, y+1/2'
+'x+1/2, -z, -y+1/2'
+'z+1/2, y, x+1/2'
+'z+1/2, -y, -x+1/2'
+'-z+1/2, y, -x+1/2'
+'-z+1/2, -y, x+1/2'
+'x+1/2, y+1/2, z'
+'-x+1/2, -y+1/2, z'
+'-x+1/2, y+1/2, -z'
+'x+1/2, -y+1/2, -z'
+'z+1/2, x+1/2, y'
+'z+1/2, -x+1/2, -y'
+'-z+1/2, -x+1/2, y'
+'-z+1/2, x+1/2, -y'
+'y+1/2, z+1/2, x'
+'-y+1/2, z+1/2, -x'
+'y+1/2, -z+1/2, -x'
+'-y+1/2, -z+1/2, x'
+'y+1/2, x+1/2, z'
+'-y+1/2, -x+1/2, z'
+'y+1/2, -x+1/2, -z'
+'-y+1/2, x+1/2, -z'
+'x+1/2, z+1/2, y'
+'-x+1/2, z+1/2, -y'
+'-x+1/2, -z+1/2, y'
+'x+1/2, -z+1/2, -y'
+'z+1/2, y+1/2, x'
+'z+1/2, -y+1/2, -x'
+'-z+1/2, y+1/2, -x'
+'-z+1/2, -y+1/2, x'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Fe1 Fe 0.419364(15) 0.347291(11) 0.152709(11) 0.04151(13) Uani 1 2 d S . .
+S2 S 0.37997(2) 0.37997(2) 0.23684(3) 0.0537(3) Uani 1 2 d S . .
+O2 O 0.37057(6) 0.37057(6) 0.12943(6) 0.0453(11) Uani 1 6 d S . .
+O3 O 0.40132(5) 0.34919(6) 0.21083(5) 0.0537(5) Uani 1 1 d . . .
+O1 O 0.44913(5) 0.40066(5) 0.15766(6) 0.0576(5) Uani 1 1 d . . .
+N1 N 0.47650(10) 0.32242(7) 0.17758(7) 0.0599(9) Uani 1 2 d S . .
+O4 O 0.35810(7) 0.35810(7) 0.26842(8) 0.0834(10) Uani 1 2 d S . .
+C1 C 0.46995(7) 0.46995(7) 0.15876(13) 0.0576(11) Uani 1 2 d S . .
+C2 C 0.43734(8) 0.43734(8) 0.15849(12) 0.0509(10) Uani 1 2 d S . .
+C3 C 0.45904(8) 0.51095(8) 0.15989(12) 0.0834(11) Uani 1 1 d . . .
+H3 H 0.4315 0.5183 0.1607 0.100 Uiso 1 1 calc R . .
+O5 O 0.40926(7) 0.40926(7) 0.25348(9) 0.0926(10) Uani 1 2 d S . .
+C4 C 0.49445(10) 0.33949(11) 0.21040(11) 0.0903(11) Uani 1 1 d . . .
+H4 H 0.4820 0.3622 0.2222 0.108 Uiso 1 1 calc R . .
+C5 C 0.53039(14) 0.32524(15) 0.22772(17) 0.1301(18) Uani 1 1 d . . .
+H5 H 0.5424 0.3378 0.2503 0.156 Uiso 1 1 calc R . .
+C6 C 0.5474(2) 0.29095(16) 0.20905(16) 0.211(6) Uani 1 2 d S . .
+H6 H 0.5713 0.2800 0.2200 0.253 Uiso 1 2 calc SR . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Fe1 0.0410(3) 0.04177(19) 0.04177(19) 0.0077(3) 0.00511(17) -0.00511(17)
+S2 0.0613(4) 0.0613(4) 0.0383(5) 0.0041(4) 0.0041(4) 0.0006(6)
+O2 0.0453(11) 0.0453(11) 0.0453(11) 0.0145(11) 0.0145(11) -0.0145(11)
+O3 0.0584(11) 0.0623(12) 0.0405(10) 0.0098(10) 0.0049(8) 0.0052(10)
+O1 0.0506(11) 0.0407(10) 0.0815(14) 0.0047(11) -0.0022(11) -0.0145(9)
+N1 0.050(2) 0.0648(14) 0.0648(14) 0.016(2) 0.0056(12) -0.0056(12)
+O4 0.0950(15) 0.0950(15) 0.0600(18) 0.0280(12) 0.0280(12) 0.0080(18)
+C1 0.0460(14) 0.0460(14) 0.081(3) 0.0061(14) 0.0061(14) -0.0168(19)
+C2 0.0528(15) 0.0528(15) 0.047(2) 0.0036(14) 0.0036(14) -0.015(2)
+C3 0.0366(16) 0.0585(19) 0.155(3) 0.001(2) 0.0021(19) -0.0070(14)
+O5 0.0951(16) 0.0951(16) 0.088(2) -0.0245(13) -0.0245(13) -0.017(2)
+C4 0.066(2) 0.094(3) 0.111(3) 0.014(2) -0.027(2) 0.002(2)
+C5 0.082(3) 0.159(5) 0.149(4) -0.009(4) -0.045(3) 0.032(3)
+C6 0.058(5) 0.287(10) 0.287(10) 0.198(12) 0.000(3) 0.000(3)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Fe1 O2 1.9218(5) . ?
+Fe1 O3 1.9880(16) . ?
+Fe1 O1 2.0018(17) . ?
+Fe1 N1 2.191(4) . ?
+S2 O4 1.443(3) . ?
+S2 O5 1.458(3) . ?
+S2 O3 1.4889(18) . ?
+O1 C2 1.258(2) . ?
+N1 C4 1.342(3) . ?
+C1 C3 1.386(3) . ?
+C1 C2 1.506(5) . ?
+C3 H3 0.9300 . ?
+C4 C5 1.383(5) . ?
+C4 H4 0.9300 . ?
+C5 C6 1.391(5) . ?
+C5 H5 0.9300 . ?
+C6 H6 0.9300 . ?

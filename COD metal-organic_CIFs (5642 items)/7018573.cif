@@ -1,0 +1,243 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-25 14:18:03 +0200 (Fri, 25 Mar 2016) $
+#$Revision: 179889 $
+#$URL: svn://www.crystallography.net/cod/cif/7/01/85/7018573.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7018573
+loop_
+_publ_author_name
+'Queen, Wendy L.'
+'Bloch, Eric D.'
+'Brown, Craig M.'
+'Hudson, Matthew R.'
+'Mason, Jarad A.'
+'Murray, Leslie J.'
+'Ramirez-Cuesta, Anibal Javier'
+'Peterson, Vanessa K.'
+'Long, Jeffrey R.'
+_publ_section_title
+;
+ Hydrogen adsorption in the metal-organic frameworks Fe(2)(dobdc) and
+ Fe(2)(O(2))(dobdc).
+;
+_journal_issue                   14
+_journal_name_full
+'Dalton transactions (Cambridge, England : 2003)'
+_journal_page_first              4180
+_journal_page_last               4187
+_journal_paper_doi               10.1039/c2dt12138g
+_journal_volume                  41
+_journal_year                    2012
+_chemical_formula_sum            'C4 H D1.27 Fe O4.07'
+_chemical_formula_weight         172.61
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           148
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  '-R 3'
+_symmetry_space_group_name_H-M   'R -3 :H'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                120.0
+_cell_formula_units_Z            18
+_cell_length_a                   25.9612(14)
+_cell_length_b                   25.9612
+_cell_length_c                   6.8377(7)
+_cell_volume                     3991.1(5)
+_pd_block_id                     2011-04-22T15:36|OXIDIZEDA_0P5_D2_phase1|||
+_pd_phase_name
+'from /data/people/craigy/MgMOF/BT1/1108/MOF74.xtl'
+_cod_data_source_file            c2dt12138g.txt
+_cod_data_source_block           OXIDIZEDA_0P5_D2_phase_1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (64
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.1 from 2010-06-29 (29 times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_sg_symbol_H-M      'R -3'
+_cod_database_code               7018573
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -y,x-y,+z
+3 y-x,-x,+z
+-1 -x,-y,-z
+-2 +y,y-x,-z
+-3 x-y,+x,-z
+101 +x+1/3,+y+2/3,+z+2/3
+102 -y+1/3,x-y+2/3,+z+2/3
+103 y-x+1/3,-x+2/3,+z+2/3
+-101 -x+2/3,-y+1/3,-z+1/3
+-102 +y+2/3,y-x+1/3,-z+1/3
+-103 x-y+2/3,+x+1/3,-z+1/3
+201 +x+2/3,+y+1/3,+z+1/3
+202 -y+2/3,x-y+1/3,+z+1/3
+203 y-x+2/3,-x+1/3,+z+1/3
+-201 -x+1/3,-y+2/3,-z+2/3
+-202 +y+1/3,y-x+2/3,-z+2/3
+-203 x-y+1/3,+x+2/3,-z+2/3
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+O1b 0.17(13) 0.09(13) 0.40(16) 0.51(25) 0.40(24) 0.80(30)
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Fe Fe 0.3810(4) 0.3479(5) 0.1352(14) 1.0 Uiso 0.0225(34) 18
+O O1 0.3276(8) 0.2996(7) 0.3495(28) 1.0 Uiso 0.049(9) 18
+O O2 0.3032(9) 0.2203(10) 0.6025(24) 1.0 Uiso 0.032(7) 18
+O O3 0.3532(7) 0.2721(4) 0.0014(27) 1.0 Uiso 0.009(5) 18
+C C1 0.3144(10) 0.2468(7) 0.4087(24) 1.0 Uiso 0.037(6) 18
+C C2 0.3325(10) 0.2114(8) 0.2892(24) 1.0 Uiso 0.045(8) 18
+C C3 0.3444(8) 0.2236(8) 0.0831(23) 1.0 Uiso 0.009(4) 18
+C C4 0.3527(9) 0.1783(9) -0.0146(22) 1.0 Uiso 0.019(5) 18
+H H 0.3668(13) 0.1931(13) -0.1725(29) 1.0 Uiso 0.008(8) 18
+O O1a 0.5295(17) 0.6173(25) 0.721(5) 0.54(6) Uiso 0.017(15) 18
+O O1b 0.511(4) 0.618(5) 0.940(8) 0.54(6) Uani 0.53141 18
+D D1 0.577(5) 0.691(5) 0.607(15) 0.39(8) Uiso 0.13(5) 18
+D D2 0.5310(19) 0.6586(20) 0.721(4) 0.88(11) Uiso 0.059(20) 18
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+Fe 18.0
+O 73.298
+C 72.0
+H 18.0
+D 22.864
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 Fe O1 83.86(34) 1_555 103_554 n
+O1 Fe O3 85.4(10) 1_555 1_555 n
+O1 Fe O3 79.3(6) 1_555 202_555 n
+O1 Fe O3 81.3(7) 103_554 1_555 n
+O1 Fe O3 96.2(7) 103_554 202_555 n
+O3 Fe O3 164.7(10) 1_555 202_555 n
+Fe O1 Fe 95.7(5) 1_555 202_555 n
+Fe O1 C1 129.1(18) 1_555 1_555 n
+Fe O1 C1 133.9(15) 202_555 1_555 n
+Fe O3 Fe 94.6(9) 1_555 103_554 n
+Fe O3 C3 125.2(16) 1_555 1_555 n
+Fe O3 C3 129.6(13) 103_554 1_555 n
+O1 C1 O2 131.9(19) 1_555 1_555 n
+O1 C1 C2 119.1(19) 1_555 1_555 n
+O2 C1 C2 105.0(15) 1_555 1_555 n
+C1 C2 C3 120.4(18) 1_555 1_555 n
+C1 C2 C4 117.3(16) 1_555 -201_555 n
+C3 C2 C4 116.6(15) 1_555 -201_555 n
+O3 C3 C2 123.4(20) 1_555 1_555 n
+O3 C3 C4 124.3(16) 1_555 1_555 n
+C2 C3 C4 111.9(13) 1_555 1_555 n
+C2 C4 C3 128.3(13) -201_555 1_555 n
+C2 C4 H 121.6(20) -201_555 1_555 n
+C3 C4 H 108.3(19) 1_555 1_555 n
+O1b O1a D2 81(5) 1_555 1_555 n
+O1a O1b D2 36.5(21) 1_555 1_555 n
+O1a D2 O1b 63(4) 1_555 1_555 n
+O1a D2 D1 102(6) 1_555 1_555 n
+O1b D2 D1 143(5) 1_555 1_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Fe Fe 2.970(10) 103_554 n
+Fe Fe 2.970(10) 202_555 n
+Fe O1 1.975(9) 1_555 n
+Fe O1 2.031(23) 103_554 n
+Fe O2 2.209(25) 202_554 n
+Fe O3 1.950(9) 1_555 n
+Fe O3 2.089(22) 202_555 n
+Fe O1a 2.25(4) -1_666 n
+Fe O1b 2.54(9) -1_666 n
+Fe D1 2.54(8) -1_666 n
+Fe D2 2.57(4) -1_666 n
+O1 Fe 1.975(9) 1_555 n
+O1 Fe 2.031(23) 202_555 n
+O1 C1 1.301(9) 1_555 n
+O1 C2 2.392(25) 1_555 n
+O1 D1 2.39(10) -1_666 n
+O2 Fe 2.209(25) 103_555 n
+O2 C1 1.454(9) 1_555 n
+O2 C2 2.322(24) 1_555 n
+O2 H 2.14(4) -201_444 n
+O2 O1b 1.94(13) -103_435 n
+O3 Fe 1.950(9) 1_555 n
+O3 Fe 2.089(22) 103_554 n
+O3 C3 1.291(19) 1_555 n
+C1 O1 1.301(9) 1_555 n
+C1 O2 1.454(9) 1_555 n
+C1 C2 1.472(9) 1_555 n
+C1 D1 2.46(13) -1_666 n
+C2 O1 2.392(25) 1_555 n
+C2 O2 2.322(24) 1_555 n
+C2 C1 1.472(9) 1_555 n
+C2 C3 1.443(8) 1_555 n
+C2 C4 1.355(21) -201_444 n
+C2 H 2.183(27) -201_444 n
+C3 O3 1.291(19) 1_555 n
+C3 C2 1.443(8) 1_555 n
+C3 C4 1.457(9) 1_555 n
+C3 C4 2.380(24) -201_444 n
+C3 H 2.115(26) 1_555 n
+C4 C2 1.355(21) -201_444 n
+C4 C3 1.457(9) 1_555 n
+C4 C3 2.380(24) -201_444 n
+C4 H 1.143(9) 1_555 n
+H O2 2.14(4) -201_444 n
+H C2 2.183(27) -201_444 n
+H C3 2.115(26) 1_555 n
+H C4 1.143(9) 1_555 n
+O1a Fe 2.25(4) -1_666 n
+O1a O1b 1.578(23) 1_555 n
+O1a D1 1.85(14) 1_555 n
+O1a D2 1.05(5) 1_555 n
+O1b Fe 2.54(9) -1_666 n
+O1b O2 1.94(13) -102_445 n
+O1b O1a 1.578(23) 1_555 n
+O1b D2 1.75(8) 1_555 n
+D1 Fe 2.54(8) -1_666 n
+D1 O1 2.39(10) -1_666 n
+D1 C1 2.46(13) -1_666 n
+D1 O1a 1.85(14) 1_555 n
+D1 D2 1.32(12) 1_555 n
+D2 Fe 2.57(4) -1_666 n
+D2 O1a 1.05(5) 1_555 n
+D2 O1b 1.75(8) 1_555 n
+D2 D1 1.32(12) 1_555 n

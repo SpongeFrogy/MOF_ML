@@ -1,0 +1,356 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-11-17 08:01:30 +0200 (Sun, 17 Nov 2019) $
+#$Revision: 228778 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/54/89/1548982.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1548982
+loop_
+_publ_author_name
+'Lu, Zhenzhong'
+'Godfrey, Harry G. W.'
+'da Silva, Ivan'
+'Cheng, Yongqiang'
+'Savage, Mathew'
+'Manuel, Pascal'
+'Rudi\'c, Svemir'
+'Ramirez-Cuesta, Anibal J'
+'Yang, Sihai'
+'Schr\"oder, Martin'
+_publ_section_title
+;
+ Direct observation of supramolecular binding of light hydrocarbons in
+ vanadium(iii) and (iv) metal-organic framework materials.
+;
+_journal_issue                   13
+_journal_name_full               'Chemical science'
+_journal_page_first              3401
+_journal_page_last               3408
+_journal_paper_doi               10.1039/c8sc00330k
+_journal_volume                  9
+_journal_year                    2018
+_chemical_formula_moiety         'C8 H4 O5 V, 0.517(C4 D12)'
+_chemical_formula_sum            'C10.07 H4 D6.2 O5 V'
+_chemical_formula_weight         268.36
+_chemical_name_common            MFM-300V3-1.0C2D6
+_space_group_IT_number           98
+_space_group_name_Hall           'I 4bw 2bw'
+_space_group_name_H-M_alt        'I 41 2 2'
+_symmetry_cell_setting           tetragonal
+_symmetry_Int_Tables_number      98
+_symmetry_space_group_name_Hall  'I 4bw 2bw'
+_symmetry_space_group_name_H-M   'I 41 2 2'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   15.1661(3)
+_cell_length_b                   15.1661(3)
+_cell_length_c                   12.0725(3)
+_cell_measurement_temperature    7
+_cell_volume                     2776.80(10)
+_computing_cell_refinement       'Bruker Topas 4.2'
+_computing_data_reduction        'Bruker Topas 4.2'
+_computing_molecular_graphics    'CrystalImpact Diamond 3.2'
+_computing_structure_refinement  'Bruker Topas 4.2'
+_computing_structure_solution    'Bruker Topas 4.2'
+_diffrn_ambient_temperature      7
+_diffrn_detector                 '1520 pixellated 3He tubes'
+_diffrn_measurement_device_type  'ISIS WISH diffractometer'
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_type           neutron
+_diffrn_source                   'ISIS TS2'
+_diffrn_source_type              'ISIS WISH diffractometer'
+_pd_char_colour                  'Green powder'
+_pd_instr_dist_spec/detc         2200
+_pd_instr_dist_src/spec          40000
+_pd_instr_location
+; 
+WISH is situated on E8 of the second target station of the ISIS neutron source,
+located at the Rutherford Appleton Laboratory, Didcot, UK.
+;
+_pd_meas_2theta_fixed            10-70
+_pd_meas_scan_method             tof
+_pd_proc_ls_prof_R_factor        1.92
+_pd_proc_ls_prof_wR_expected     1.32
+_pd_proc_ls_prof_wR_factor       1.98
+_pd_spec_mounting
+;                                       
+ISIS vanadium sample can equipped with gas handling equipment 
+and cartridge heaters, sealed with compressed indium wire.
+;
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   cylinder
+_pd_spec_size_axial              '65 mm'
+_pd_spec_size_thick              '8 mm'
+_refine_ls_goodness_of_fit_all   1.49
+_cod_data_source_file            c8sc00330k3.cif
+_cod_data_source_block           MFM-300V3-1.0C2D6
+_cod_depositor_comments
+'Adding full bibliography for 1548977--1548983.cif.'
+_cod_original_cell_volume        2776.80(13)
+_cod_original_formula_sum        'C10.07 H4 D6.20 O5 V'
+_cod_database_code               1548982
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -y,1/2+x,1/4+z
+3 1/2-x,1/2-y,1/2+z
+4 1/2+y,-x,3/4+z
+5 x,1/2-y,1/4-z
+6 1/2+y,1/2+x,1/2-z
+7 1/2-x,y,3/4-z
+8 -y,-x,-z
+9 1/2+x,1/2+y,1/2+z
+10 1/2-y,x,3/4+z
+11 -x,-y,z
+12 y,1/2-x,1/4+z
+13 1/2+x,-y,3/4-z
+14 y,x,-z
+15 -x,1/2+y,1/4-z
+16 1/2-y,1/2-x,1/2-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_B_iso_or_equiv
+V V 8 0.6929 0.3071 0.5 1 0(2)
+O1 O 8 0.7547(5) 0.25 0.625 1 3.86(13)
+O2 O 16 0.6185(6) 0.3843(7) 0.6073(5) 1 3.86(13)
+O3 O 16 0.5955(7) 0.2872(4) 0.7516(6) 1 3.86(13)
+C1 C 16 0.5875(5) 0.3634(4) 0.7039(4) 1 1.24(7)
+C2 C 16 0.53948(16) 0.43129(14) 0.7640(4) 1 1.24(7)
+C3 C 8 0.5 0.5 0.7065(4) 1 1.24(7)
+C4 C 16 0.53948(16) 0.43129(14) 0.8790(3) 1 1.24(7)
+C5 C 8 0.5 0.5 0.9364(3) 1 1.24(7)
+H1 H 8 0.8141(10) 0.25 0.625 1 3.86(13)
+H3 H 8 0.5 0.5 0.6223(7) 1 1.24(7)
+H4 H 16 0.5684(3) 0.3809(4) 0.9211(4) 1 1.24(7)
+C1_1 C 16 0.395(7) 0.281(13) 0.198(8) 0.244(3) 6.7(4)
+C2_1 C 16 0.472(7) 0.232(13) 0.145(8) 0.244(3) 6.7(4)
+D1_1 D 16 0.3328(13) 0.25(3) 0.17(4) 0.244(3) 6.7(4)
+D2_1 D 16 0.40(2) 0.28(5) 0.288(7) 0.244(3) 6.7(4)
+D3_1 D 16 0.40(3) 0.351(11) 0.17(5) 0.244(3) 6.7(4)
+D4_1 D 16 0.5348(13) 0.26(3) 0.17(4) 0.244(3) 6.7(4)
+D5_1 D 16 0.47(3) 0.162(11) 0.17(5) 0.244(3) 6.7(4)
+D6_1 D 16 0.47(2) 0.24(5) 0.054(7) 0.244(3) 6.7(4)
+C1_2 C 16 0.594(6) 0.686(6) 0.492(2) 0.273(3) 12.1(5)
+C2_2 C 16 0.659(6) 0.612(6) 0.460(2) 0.273(3) 12.1(5)
+D1_2 D 16 0.526(2) 0.663(17) 0.48(5) 0.273(3) 12.1(5)
+D2_2 D 16 0.60(4) 0.70(3) 0.579(17) 0.273(3) 12.1(5)
+D3_2 D 16 0.61(3) 0.743(15) 0.44(4) 0.273(3) 12.1(5)
+D4_2 D 16 0.726(2) 0.635(17) 0.47(5) 0.273(3) 12.1(5)
+D5_2 D 16 0.65(3) 0.554(15) 0.51(4) 0.273(3) 12.1(5)
+D6_2 D 16 0.65(4) 0.59(3) 0.373(17) 0.273(3) 12.1(5)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 V O2 91.6(2) . . yes
+O1 V O1 99.64(16) . 4_564 yes
+O1 V O3 88.7(3) . 4_564 yes
+O1 V O3 92.5(3) . 5_556 yes
+O1 V O2 168.7(2) . 8_666 yes
+O1 V O2 168.7(2) 4_564 . yes
+O2 V O3 88.1(4) . 4_564 yes
+O2 V O3 90.4(4) . 5_556 yes
+O2 V O2 77.1(3) . 8_666 yes
+O1 V O3 92.5(3) 4_564 4_564 yes
+O1 V O3 88.7(3) 4_564 5_556 yes
+O1 V O2 91.6(2) 4_564 8_666 yes
+O3 V O3 178.2(3) 4_564 5_556 yes
+O2 V O3 90.4(4) 8_666 4_564 yes
+O2 V O3 88.1(4) 8_666 5_556 yes
+V O1 V 123.4(4) . 2_645 yes
+V O2 C1 128.3(7) . . yes
+V O3 C1 133.1(7) 2_645 . yes
+V O1 H1 118.31(19) . . no
+V O1 H1 118.31(19) 2_645 . no
+O2 C1 O3 125.7(8) . . yes
+O2 C1 C2 117.2(6) . . yes
+O3 C1 C2 117.1(5) . . yes
+C1 C2 C3 119.9(4) . . no
+C3 C2 C4 120.0(3) . . no
+C1 C2 C4 119.9(3) . . no
+C2 C3 C2 120.0(4) . 11_665 no
+C2 C4 C5 120.0(2) . . no
+C4 C5 C5 119.97(19) 11_665 8_667 no
+C4 C5 C5 119.97(19) . 8_667 no
+C4 C5 C4 120.1(3) . 11_665 no
+C2 C3 H3 120.0(2) . . no
+C2 C3 H3 120.0(2) 11_665 . no
+C2 C4 H4 120.0(4) . . no
+C5 C4 H4 120.1(4) . . no
+C2_1 C1_1 C2_1 26(9) . 5_555 no
+C1_1 C2_1 C1_1 78(8) . 5_555 no
+C1_1 C2_1 C2_1 85(18) . 5_555 no
+C1_1 C2_1 C2_1 69(14) 5_555 5_555 no
+C2_1 C1_1 D1_1 109.00 . . yes
+C2_1 C1_1 D2_1 111.00 . . yes
+C2_1 C1_1 D3_1 107.00 . . yes
+C2_1 C1_1 D6_1 29.00 . 5_555 yes
+D1_1 C1_1 D2_1 111.00 . . yes
+D1_1 C1_1 D3_1 112.00 . . yes
+C2_1 C1_1 D1_1 110.00 5_555 . yes
+D1_1 C1_1 D6_1 134.00 . 5_555 yes
+D2_1 C1_1 D3_1 108.00 . . yes
+C2_1 C1_1 D2_1 129(19) 5_555 . yes
+D2_1 C1_1 D6_1 87.00 . 5_555 yes
+C2_1 C1_1 D3_1 82.00 5_555 . yes
+D3_1 C1_1 D6_1 101.00 . 5_555 yes
+C2_1 C1_1 D6_1 43(10) 5_555 5_555 yes
+C1_1 C2_1 D4_1 111.00 . . yes
+C1_1 C2_1 D5_1 109.00 . . yes
+C1_1 C2_1 D6_1 110.00 . . yes
+C1_1 C2_1 D4_1 144.00 . 5_555 yes
+C1_1 C2_1 D6_1 49.00 . 5_555 yes
+D4_1 C2_1 D5_1 109.00 . . yes
+D4_1 C2_1 D6_1 105.00 . . yes
+C1_1 C2_1 D4_1 150.00 5_555 . yes
+C2_1 C2_1 D4_1 84.00 5_555 . yes
+D4_1 C2_1 D4_1 58.00 . 5_555 yes
+D4_1 C2_1 D6_1 66.00 . 5_555 yes
+D5_1 C2_1 D6_1 112.00 . . yes
+C1_1 C2_1 D5_1 93.00 5_555 . yes
+C2_1 C2_1 D5_1 154.00 5_555 . yes
+D4_1 C2_1 D5_1 107.00 5_555 . yes
+D5_1 C2_1 D6_1 109.00 . 5_555 yes
+C1_1 C2_1 D6_1 46.00 5_555 . yes
+C2_1 C2_1 D6_1 42.00 5_555 . yes
+D4_1 C2_1 D6_1 52.00 5_555 . yes
+D6_1 C2_1 D6_1 139.00 . 5_555 yes
+C1_1 C2_1 D4_1 97.00 5_555 5_555 yes
+C1_1 C2_1 D6_1 127.00 5_555 5_555 yes
+C2_1 C2_1 D4_1 61.00 5_555 5_555 yes
+C2_1 C2_1 D6_1 97.00 5_555 5_555 yes
+D4_1 C2_1 D6_1 120.00 5_555 5_555 yes
+C2_2 C1_2 C2_2 65(8) . 14_556 no
+C1_2 C2_2 C1_2 115(8) . 14_556 no
+C1_2 C2_2 C2_2 29(3) . 14_556 no
+C1_2 C2_2 C2_2 86(7) 14_556 14_556 no
+C2_2 C1_2 D1_2 110(16) . . yes
+C2_2 C1_2 D2_2 110.00 . . yes
+C2_2 C1_2 D3_2 107.00 . . yes
+C2_2 C1_2 D4_2 99(13) . 14_556 yes
+C2_2 C1_2 D5_2 89.00 . 14_556 yes
+D1_2 C1_2 D2_2 106.00 . . yes
+D1_2 C1_2 D3_2 113.00 . . yes
+C2_2 C1_2 D1_2 106.00 14_556 . yes
+D1_2 C1_2 D4_2 148.00 . 14_556 yes
+D1_2 C1_2 D5_2 24.00 . 14_556 yes
+D2_2 C1_2 D3_2 113.00 . . yes
+C2_2 C1_2 D2_2 48.00 14_556 . yes
+D2_2 C1_2 D4_2 51.00 . 14_556 yes
+D2_2 C1_2 D5_2 103.00 . 14_556 yes
+C2_2 C1_2 D3_2 142.00 14_556 . yes
+D3_2 C1_2 D4_2 69.00 . 14_556 yes
+D3_2 C1_2 D5_2 133.00 . 14_556 yes
+C2_2 C1_2 D4_2 76(19) 14_556 14_556 yes
+C2_2 C1_2 D5_2 86.00 14_556 14_556 yes
+D4_2 C1_2 D5_2 154.00 14_556 14_556 yes
+C1_2 C2_2 D4_2 110(17) . . yes
+C1_2 C2_2 D5_2 112.00 . . yes
+C1_2 C2_2 D6_2 112.00 . . yes
+C1_2 C2_2 D2_2 144.00 . 14_556 yes
+D4_2 C2_2 D5_2 109.00 . . yes
+D4_2 C2_2 D6_2 109.00 . . yes
+C1_2 C2_2 D4_2 62.00 14_556 . yes
+C2_2 C2_2 D4_2 104.00 14_556 . yes
+D2_2 C2_2 D4_2 54.00 14_556 . yes
+D5_2 C2_2 D6_2 106.00 . . yes
+C1_2 C2_2 D5_2 49.00 14_556 . yes
+C2_2 C2_2 D5_2 88.00 14_556 . yes
+D2_2 C2_2 D5_2 104.00 14_556 . yes
+C1_2 C2_2 D6_2 133.00 14_556 . yes
+C2_2 C2_2 D6_2 138.00 14_556 . yes
+D2_2 C2_2 D6_2 58.00 14_556 . yes
+C1_2 C2_2 D2_2 87.00 14_556 14_556 yes
+C2_2 C2_2 D2_2 157.00 14_556 14_556 yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+V O1 1.976(4) . yes
+V O2 2.079(9) . yes
+V O1 1.976(4) 4_564 yes
+V O3 2.056(9) 4_564 yes
+V O3 2.056(9) 5_556 yes
+V O2 2.079(9) 8_666 yes
+O2 C1 1.297(9) . yes
+O3 C1 1.297(9) . yes
+O1 H1 0.901(17) . no
+C1 C2 1.455(7) . no
+C2 C3 1.388(4) . no
+C2 C4 1.388(6) . no
+C4 C5 1.387(3) . no
+C5 C5 1.536(5) 8_667 no
+C3 H3 1.017(10) . no
+C4 H4 1.017(6) . no
+C1_1 C2_1 1.53(19) . no
+C1_1 C2_1 1.63(15) 5_555 no
+C2_1 C2_1 0.7(2) 5_555 no
+C1_1 D1_1 1.11(18) . yes
+C1_1 D2_1 1.1(3) . yes
+C1_1 D3_1 1.1(3) . yes
+C1_1 D6_1 1.2(3) 5_555 yes
+C2_1 D4_1 1.1(3) . yes
+C2_1 D5_1 1.1(4) . yes
+C2_1 D6_1 1.1(3) . yes
+C2_1 D4_1 1.2(3) 5_555 yes
+C2_1 D6_1 0.8(6) 5_555 yes
+C1_2 C2_2 1.54(12) . no
+C1_2 C2_2 0.76(9) 14_556 no
+C2_2 C2_2 1.40(10) 14_556 no
+C1_2 D1_2 1.10(14) . yes
+C1_2 D2_2 1.1(3) . yes
+C1_2 D3_2 1.1(3) . yes
+C1_2 D4_2 1.0(4) 14_556 yes
+C1_2 D5_2 0.8(3) 14_556 yes
+C2_2 D4_2 1.1(3) . yes
+C2_2 D5_2 1.1(4) . yes
+C2_2 D6_2 1.1(2) . yes
+C2_2 D2_2 0.8(4) 14_556 yes
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_4
+_geom_torsion_publ_flag
+O1 V O2 C1 -35.4(8) . . no
+O3 V O2 C1 -124.1(8) 4_564 . no
+O3 V O2 C1 57.1(8) 5_556 . no
+O2 V O2 C1 145.0(9) 8_666 . no
+V O2 C1 O3 -2.0(13) . . no
+V O2 C1 C2 178.1(5) . . no
+V O3 C1 O2 33.1(13) 2_645 . no
+V O3 C1 C2 -147.0(6) 2_645 . no
+O2 C1 C2 C3 24.1(8) . . no
+O2 C1 C2 C4 -150.6(6) . . no
+O3 C1 C2 C3 -155.9(6) . . no
+O3 C1 C2 C4 29.5(8) . . no
+C1 C2 C3 C2 -174.6(4) . 11_665 no
+C4 C2 C3 C2 0.0(3) . 11_665 no
+C1 C2 C4 C5 174.6(4) . . no
+C3 C2 C4 C5 0.0(3) . . no
+C2 C4 C5 C5 179.98(17) . 8_667 no
+C2 C4 C5 C4 0.0(3) . 11_665 no

@@ -1,0 +1,277 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 14:50:18 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176428 $
+#$URL: svn://www.crystallography.net/cod/cif/7/22/07/7220736.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7220736
+loop_
+_publ_author_name
+'Bon, Volodymyr'
+'Klein, Nicole'
+'Senkovska, Irena'
+'Heerwig, Andreas'
+'Getzschmann, J\"urgen'
+'Wallacher, Dirk'
+'Zizak, Ivo'
+'Brzhezinskaya, Maria'
+'Mueller, Uwe'
+'Kaskel, Stefan'
+_publ_section_title
+;
+ Exceptional adsorption-induced cluster and network deformation in the
+ flexible metal-organic framework DUT-8(Ni) observed by in situ X-ray
+ diffraction and EXAFS.
+;
+_journal_issue                   26
+_journal_name_full               'Physical chemistry chemical physics : PCCP'
+_journal_page_first              17471
+_journal_page_last               17479
+_journal_paper_doi               10.1039/c5cp02180d
+_journal_volume                  17
+_journal_year                    2015
+_chemical_formula_sum            'C54 H72 N2 Ni2 O8'
+_chemical_formula_weight         994.52
+_chemical_name_common            C2H4@DUT-8(Ni)
+_space_group_IT_number           11
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      11
+_symmetry_space_group_name_Hall  '-P 2yb'
+_symmetry_space_group_name_H-M   'P 1 21/m 1'
+_audit_creation_date             2014-10-24
+_audit_creation_method           'Materials Studio'
+_audit_update_record
+;
+2014-11-14 deposited with the CCDC.
+2015-06-09 downloaded from the CCDC.
+;
+_cell_angle_alpha                90.0000
+_cell_angle_beta                 94.0138
+_cell_angle_gamma                90.0000
+_cell_formula_units_Z            2
+_cell_length_a                   20.4460
+_cell_length_b                   16.4661
+_cell_length_c                   9.3532
+_cell_volume                     3141.180
+_diffrn_ambient_temperature      169
+_diffrn_detector                 'Area detector'
+_diffrn_detector_type            'VANTEC 2000 detector (Bruker)'
+_diffrn_measurement_method       '2 Theta scan'
+_diffrn_radiation_monochromator  'silicium monochromator'
+_diffrn_radiation_type           Synchrotron
+_diffrn_radiation_wavelength     1.5406
+_diffrn_source                   Synchrotron
+_exptl_crystal_colour            'green powder'
+_exptl_crystal_recrystallization_method 'phase transition'
+_pd_instr_location
+;
+KMC-2 beamline HZB (Berlin)
+;
+_pd_meas_2theta_range_inc        0.020000
+_pd_meas_2theta_range_max        50.00000
+_pd_meas_2theta_range_min        5.00000
+_pd_meas_number_of_points        2250
+_pd_meas_scan_method             step
+_pd_prep_pressure                92
+_pd_prep_temperature             169
+_pd_proc_2theta_range_inc        0.020000
+_pd_proc_2theta_range_max        50.0000
+_pd_proc_2theta_range_min        5.0000
+_pd_proc_ls_prof_R_factor        18.48
+_pd_proc_ls_prof_wR_factor       29.57
+_pd_proc_wavelength              1.5406
+_pd_spec_mounting                'close cycle He cryostat with Be domes'
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   block
+_refine_ls_number_parameters     36
+_refine_ls_number_restraints     0
+_cod_data_source_file            c5cp02180d2.cif
+_cod_data_source_block           DUT8_lp_C2H4
+_cod_depositor_comments
+'Adding full bibliography for 7220735--7220737.cif.'
+_cod_original_sg_symbol_H-M      P21/M
+_cod_database_code               7220736
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,y+1/2,-z
+-x,-y,-z
+x,-y+1/2,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+O1 O 0.30679 0.17337 0.37160 0.05000 Uiso 1.00
+O2 O 0.18953 0.17367 0.59689 0.05000 Uiso 1.00
+O3 O 0.18883 0.16940 0.35830 0.05000 Uiso 1.00
+O4 O 0.30961 0.17014 0.61117 0.05000 Uiso 1.00
+C5 C 0.16688 0.14265 0.47680 0.05000 Uiso 1.00
+C6 C 0.10967 0.07894 0.47317 0.05000 Uiso 1.00
+C7 C 0.06007 0.08069 0.57270 0.05000 Uiso 1.00
+H8 H 0.06564 0.12187 0.66308 0.05000 Uiso 1.00
+C9 C 0.39230 0.03340 0.35776 0.05000 Uiso 1.00
+H10 H 0.35242 0.03590 0.27535 0.05000 Uiso 1.00
+C11 C -0.04465 0.02857 0.65704 0.05000 Uiso 1.00
+H12 H -0.04023 0.06993 0.74729 0.05000 Uiso 1.00
+C13 C 0.00392 0.02771 0.55782 0.05000 Uiso 1.00
+H14 H 0.34098 0.30386 0.12617 0.05000 Uiso 1.00
+H15 H 0.34200 0.19608 0.87914 0.05000 Uiso 1.00
+C16 C 0.33052 0.14297 0.49204 0.05000 Uiso 1.00
+C17 C 0.38752 0.07676 0.48695 0.05000 Uiso 1.00
+C18 C 0.44202 0.06988 0.59044 0.05000 Uiso 1.00
+H19 H 0.44044 0.10164 0.69148 0.05000 Uiso 1.00
+C20 C 0.09988 0.02319 0.35832 0.05000 Uiso 1.00
+H21 H 0.13553 0.01913 0.27855 0.05000 Uiso 1.00
+C22 C 0.44791 -0.01429 0.33215 0.05000 Uiso 1.00
+H23 H 0.44873 -0.04622 0.23107 0.05000 Uiso 1.00
+C24 C 0.49846 0.02133 0.56514 0.05000 Uiso 1.00
+C25 C 0.21253 0.17781 0.06774 0.05000 Uiso 1.00
+H26 H 0.23617 0.12125 0.11105 0.05000 Uiso 1.00
+H27 H 0.16066 0.17524 0.09604 0.05000 Uiso 1.00
+C28 C 0.21335 0.17791 0.89653 0.05000 Uiso 1.00
+H29 H 0.16156 0.17607 0.85197 0.05000 Uiso 1.00
+H30 H 0.23678 0.12104 0.86115 0.05000 Uiso 1.00
+C31 C -1.46573 -0.39917 -0.06774 0.05000 Uiso 1.00
+C32 C -1.48832 -0.33913 0.01035 0.05000 Uiso 1.00
+H33 H -1.41500 -0.41842 -0.05124 0.05000 Uiso 1.00
+H34 H -1.49792 -0.42936 -0.14823 0.05000 Uiso 1.00
+H35 H -1.45612 -0.30900 0.09093 0.05000 Uiso 1.00
+H36 H -1.53908 -0.31999 -0.00600 0.05000 Uiso 1.00
+C37 C -0.68101 -0.15183 0.11408 0.05000 Uiso 1.00
+C38 C -0.65146 -0.16491 0.24337 0.05000 Uiso 1.00
+H39 H -0.73413 -0.15143 0.09923 0.05000 Uiso 1.00
+H40 H -0.65218 -0.14134 0.02274 0.05000 Uiso 1.00
+H41 H -0.68032 -0.17533 0.33473 0.05000 Uiso 1.00
+H42 H -0.59834 -0.16517 0.25825 0.05000 Uiso 1.00
+C43 C -0.77140 -0.07305 -0.48674 0.05000 Uiso 1.00
+C44 C -0.80580 -0.13599 -0.54045 0.05000 Uiso 1.00
+H45 H -0.71823 -0.07517 -0.47787 0.05000 Uiso 1.00
+H46 H -0.79632 -0.01915 -0.45171 0.05000 Uiso 1.00
+H47 H -0.78086 -0.18985 -0.57559 0.05000 Uiso 1.00
+H48 H -0.85898 -0.13380 -0.54954 0.05000 Uiso 1.00
+C49 C -0.69638 0.01292 -0.08658 0.05000 Uiso 1.00
+C50 C -0.65812 0.03307 -0.19039 0.05000 Uiso 1.00
+H51 H -0.74681 -0.00538 -0.11254 0.05000 Uiso 1.00
+H52 H -0.67737 0.01452 0.02466 0.05000 Uiso 1.00
+H53 H -0.67713 0.03140 -0.30165 0.05000 Uiso 1.00
+H54 H -0.60765 0.05124 -0.16443 0.05000 Uiso 1.00
+C55 C -0.89837 -0.06311 -0.16298 0.05000 Uiso 1.00
+C56 C -0.90933 0.00611 -0.09519 0.05000 Uiso 1.00
+H57 H -0.87069 -0.11152 -0.10821 0.05000 Uiso 1.00
+H58 H -0.91715 -0.07164 -0.27338 0.05000 Uiso 1.00
+H59 H -0.89060 0.01460 0.01526 0.05000 Uiso 1.00
+H60 H -0.93712 0.05447 -0.14991 0.05000 Uiso 1.00
+C61 C -0.48656 0.16852 -0.64447 0.05000 Uiso 1.00
+C62 C -0.45289 0.17398 -0.51781 0.05000 Uiso 1.00
+H63 H -0.53976 0.16788 -0.65089 0.05000 Uiso 1.00
+H64 H -0.46103 0.16482 -0.74216 0.05000 Uiso 1.00
+H65 H -0.47844 0.17776 -0.42014 0.05000 Uiso 1.00
+H66 H -0.39969 0.17477 -0.51143 0.05000 Uiso 1.00
+Ni67 Ni 0.24945 0.25000 0.62839 0.05000 Uiso 1.00
+Ni68 Ni 0.24801 0.25000 0.34279 0.05000 Uiso 1.00
+N69 N 0.24724 0.25000 0.83725 0.05000 Uiso 1.00
+N70 N 0.24555 0.25000 0.13747 0.05000 Uiso 1.00
+C71 C 0.31319 0.25000 0.08406 0.05000 Uiso 1.00
+C72 C 0.31413 0.25000 0.91254 0.05000 Uiso 1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+O1 C16 1.296 . D
+O1 Ni68 1.750 . S
+O2 C5 1.290 . D
+O2 Ni67 1.765 . S
+O3 C5 1.301 . S
+O3 Ni68 1.809 . S
+O4 C16 1.300 . S
+O4 Ni67 1.815 . S
+C5 C6 1.570 . S
+C6 C7 1.424 . D
+C6 C20 1.417 . S
+C7 H8 1.083 . S
+C7 C13 1.441 . S
+C9 H10 1.083 . S
+C9 C17 1.413 . S
+C9 C22 1.416 . D
+C11 H12 1.083 . S
+C11 C13 1.406 . S
+C11 C20 1.414 3_556 D
+C13 C13 1.416 3_556 D
+H14 C71 1.110 . S
+H15 C72 1.112 . S
+C16 C17 1.599 . S
+C17 C18 1.428 . D
+C18 H19 1.083 . S
+C18 C24 1.437 . S
+C20 H21 1.081 . S
+C20 C11 1.414 3_556 D
+C22 H23 1.083 . S
+C22 C24 1.411 3_656 S
+C24 C22 1.411 3_656 S
+C24 C24 1.412 3_656 D
+C25 H26 1.113 . S
+C25 H27 1.112 . S
+C25 C28 1.603 1_554 S
+C25 N70 1.494 . S
+C28 C25 1.603 1_556 S
+C28 H29 1.111 . S
+C28 H30 1.113 . S
+C28 N69 1.500 . S
+C31 C32 1.331 . D
+C31 H33 1.085 . S
+C31 H34 1.085 . S
+C32 H35 1.085 . S
+C32 H36 1.085 . S
+C37 C38 1.331 . D
+C37 H39 1.085 . S
+C37 H40 1.085 . S
+C38 H41 1.086 . S
+C38 H42 1.085 . S
+C43 C44 1.331 . D
+C43 H45 1.085 . S
+C43 H46 1.085 . S
+C44 H47 1.085 . S
+C44 H48 1.085 . S
+C49 C50 1.331 . D
+C49 H51 1.085 . S
+C49 H52 1.085 . S
+C50 H53 1.085 . S
+C50 H54 1.085 . S
+C55 C56 1.331 . D
+C55 H57 1.085 . S
+C55 H58 1.085 . S
+C56 H59 1.085 . S
+C56 H60 1.085 . S
+C61 C62 1.331 . D
+C61 H63 1.085 . S
+C61 H64 1.085 . S
+C62 H65 1.085 . S
+C62 H66 1.085 . S
+Ni67 O2 1.765 4 S
+Ni67 O4 1.815 4 S
+Ni67 Ni68 2.669 . S
+Ni67 N69 1.957 . S
+Ni68 O3 1.809 4 S
+Ni68 O1 1.750 4 S
+Ni68 N70 1.918 . S
+N69 C28 1.500 4 S
+N69 C72 1.494 . S
+N70 C25 1.494 4 S
+N70 C71 1.503 . S
+C71 H14 1.110 4 S
+C71 C72 1.606 1_554 S
+C72 H15 1.112 4 S
+C72 C71 1.606 1_556 S

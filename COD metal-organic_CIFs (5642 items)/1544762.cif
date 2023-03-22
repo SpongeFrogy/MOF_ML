@@ -1,0 +1,297 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-12-09 10:51:27 +0200 (Fri, 09 Dec 2016) $
+#$Revision: 189028 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/54/47/1544762.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1544762
+loop_
+_publ_author_name
+'Jain, Prashant'
+'Stroppa, Alessandro'
+'Nabok, Dmitrii'
+'Marino, Antigone'
+'Rubano, Andrea'
+'Paparo, Domenico'
+'Matsubara, Masakazu'
+'Nakotte, Heinz'
+'Fiebig, Manfred'
+'Picozzi, Silvia'
+'Eun Sang Choi'
+'Anthony K Cheetham'
+'Claudia Draxl'
+'Naresh S Dalal'
+'Vivien S Zapf'
+_publ_section_title
+;
+ Switchable electric polarization and ferroelectric domains in a
+ metal-organic-framework
+;
+_journal_name_full               'npj Quantum Materials'
+_journal_page_first              16012
+_journal_paper_doi               10.1038/npjquantmats.2016.12
+_journal_volume                  1
+_journal_year                    2016
+_chemical_formula_sum            'C5 H11 Mn N O6'
+_chemical_formula_weight         236.08
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           9
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  'C -2yc'
+_symmetry_space_group_name_H-M   'C 1 c 1'
+_audit_creation_date             2013-06-20T12:48
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record             ' Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 120.651
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   14.315
+_cell_length_b                   8.311
+_cell_length_c                   8.914
+_cell_volume                     912.350
+_computing_structure_refinement  GSAS
+_pd_phase_name                   'from H:/Art MnMOF/isocif.cif'
+_refine_ls_goodness_of_fit_all   4.01
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     82
+_refine_ls_number_restraints     49
+_refine_ls_shift/su_max          0.04
+_refine_ls_shift/su_mean         0.01
+_cod_data_source_file            10.1038npjquantmats.2016.12.cif
+_cod_data_source_block           25K_phase_1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according to the
+built-in table from CIF Core dictionary named 'cif_core.dic' version
+2.4.1 from 2010-06-29 (42 times).
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to the
+built-in table from CIF Core dictionary named 'cif_core.dic' version
+2.4.1 from 2010-06-29 (94 times).
+
+Automatic conversion script
+Id: cif_fix_values 4624 2016-04-14 12:54:50Z antanas 
+
+Original file had '_pd_block_id' and was detected as phase datablock without a diffractogram list:
+
+phase data block 'data_25K_phase_1' does not contain a diffractogram list.
+
+To get past this requirement, I have moved '_pd_block_id' data item here:
+
+_pd_block_id                     2013-06-20T12:48|25K_phase1|MnMOF_25K||
+
+Andrius Merkys
+2016-12-09
+;
+_cod_original_cell_volume        912.34979
+_cod_database_code               1544762
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 +x,-y,+z+1/2
+101 +x+1/2,+y+1/2,+z
+102 +x+1/2,-y+1/2,+z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Mn Mn1 0.7025(28) 0.2584(33) 0.789(5) 1.0 Uiso 0.00817 4
+O O1 0.7503(31) 0.0381(28) -0.072(5) 1.0 Uiso 0.0077(31) 4
+O O2 0.742(4) 0.1542(26) 0.600(6) 1.0 Uiso 0.0077(31) 4
+O O3 0.5470(26) 0.1465(31) 0.608(5) 1.0 Uiso 0.0077(31) 4
+O O4 0.637(5) 0.3382(28) -0.052(7) 1.0 Uiso 0.0077(31) 4
+O O5 0.3648(25) 0.1447(32) 0.442(5) 1.0 Uiso 0.0077(31) 4
+O O6 0.1488(30) 0.0338(29) 0.140(5) 1.0 Uiso 0.0077(31) 4
+C C1 0.4547(28) 0.2088(26) 0.542(6) 1.0 Uiso 0.0049(32) 4
+H H1 0.457(9) 0.341(4) 0.523(13) 1.0 Uiso 0.008(6) 4
+C C2 0.212(4) 0.4732(28) 0.017(6) 1.0 Uiso 0.0049(32) 4
+H H2 0.129(5) 0.507(5) -0.012(11) 1.0 Uiso 0.008(6) 4
+C C3 0.657(4) 0.4770(29) 0.015(6) 1.0 Uiso 0.0049(32) 4
+H H3 0.151(8) 0.076(5) -0.076(11) 1.0 Uiso 0.008(6) 4
+N N11 0.8835(29) 0.3114(22) 0.504(4) 1.0 Uiso 0.007(5) 4
+H H12 0.874(10) 0.427(7) 0.502(14) 1.0 Uiso 0.042(6) 4
+H H13 0.831(8) 0.247(8) 0.538(14) 1.0 Uiso 0.042(6) 4
+C C12 0.877(4) 0.2423(26) 0.346(5) 1.0 Uiso 0.0049(32) 4
+H H14 -0.067(7) 0.291(8) 0.329(11) 1.0 Uiso 0.045(6) 4
+H H15 0.805(5) 0.261(8) 0.243(7) 1.0 Uiso 0.045(6) 4
+H H16 0.889(6) 0.123(4) 0.365(10) 1.0 Uiso 0.045(6) 4
+C C11 -0.0133(32) 0.2742(27) 0.668(5) 1.0 Uiso 0.0049(32) 4
+H H17 -0.007(7) 0.158(4) 0.688(10) 1.0 Uiso 0.050(6) 4
+H H18 -0.004(7) 0.331(8) 0.771(8) 1.0 Uiso 0.050(6) 4
+H H19 0.043(6) 0.314(8) 0.641(11) 1.0 Uiso 0.050(6) 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+Mn 4.0
+O 24.0
+C 20.0
+H 44.0
+N 4.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 Mn1 O3 88.2(14) 1_556 . 1_555 n
+O1 Mn1 O4 89.9(14) 1_556 . 1_556 n
+O1 Mn1 O5 91.7(14) 1_556 . 102_555 n
+O1 Mn1 O6 176.5(19) 1_556 . 102_555 n
+O3 Mn1 O4 89.7(20) 1_555 . 1_556 n
+O3 Mn1 O5 171.3(22) 1_555 . 102_555 n
+O3 Mn1 O6 88.6(14) 1_555 . 102_555 n
+O4 Mn1 O5 99.0(21) 1_556 . 102_555 n
+O4 Mn1 O6 91.3(14) 1_556 . 102_555 n
+O5 Mn1 O6 91.3(14) 102_555 . 102_555 n
+Mn1 O1 C2 127.7(23) 1_554 . 101_545 n
+Mn1 O3 C1 127.3(24) 1_555 . 1_555 n
+Mn1 O4 C3 121.1(23) 1_554 . 1_555 n
+Mn1 O5 C1 132.5(23) 102_454 . 1_555 n
+Mn1 O6 C3 134.9(23) 102_454 . 101_445 n
+O3 C1 O5 128.0(27) 1_555 . 1_555 n
+O3 C1 H1 112(6) 1_555 . 1_555 n
+O5 C1 H1 114(7) 1_555 . 1_555 n
+O1 C2 O2 126.9(30) 101_455 . 102_454 n
+O1 C2 H2 119(5) 101_455 . 1_555 n
+O2 C2 H2 111(4) 102_454 . 1_555 n
+O4 C3 O6 130.9(27) 1_555 . 101_555 n
+O4 C3 H3 114(5) 1_555 . 101_555 n
+O6 C3 H3 111(4) 101_555 . 101_555 n
+H12 N11 H13 112(7) 1_555 . 1_555 n
+H12 N11 C12 115(6) 1_555 . 1_555 n
+H12 N11 C11 107(8) 1_555 . 1_655 n
+H13 N11 C12 111(5) 1_555 . 1_555 n
+H13 N11 C11 96(6) 1_555 . 1_655 n
+C12 N11 C11 114.0(26) 1_555 . 1_655 n
+N11 C12 H14 109(5) 1_555 . 1_655 n
+N11 C12 H15 111(4) 1_555 . 1_555 n
+N11 C12 H16 108(5) 1_555 . 1_555 n
+H14 C12 H15 110(5) 1_655 . 1_555 n
+H14 C12 H16 110(4) 1_655 . 1_555 n
+H15 C12 H16 109(5) 1_555 . 1_555 n
+N11 C11 H17 109(6) 1_455 . 1_555 n
+N11 C11 H18 115(5) 1_455 . 1_555 n
+N11 C11 H19 102(5) 1_455 . 1_555 n
+H17 C11 H18 111(5) 1_555 . 1_555 n
+H17 C11 H19 111(5) 1_555 . 1_555 n
+H18 C11 H19 109(5) 1_555 . 1_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Mn1 O1 2.120(29) . 1_556 n
+Mn1 O2 2.211(30) . 1_555 n
+Mn1 O3 2.183(32) . 1_555 n
+Mn1 O4 2.174(31) . 1_556 n
+Mn1 O5 2.163(33) . 102_555 n
+Mn1 O6 2.074(29) . 102_555 n
+O1 Mn1 2.120(29) . 1_554 n
+O1 C2 1.285(29) . 101_545 n
+O2 Mn1 2.211(30) . 1_555 n
+O2 C2 1.236(31) . 102_555 n
+O2 H2 1.94(6) . 102_555 n
+O2 H13 1.79(8) . 1_555 n
+O3 Mn1 2.183(32) . 1_555 n
+O3 C1 1.251(33) . 1_555 n
+O3 H1 1.96(7) . 1_555 n
+O4 Mn1 2.174(31) . 1_554 n
+O4 C3 1.261(31) . 1_555 n
+O4 H3 2.01(5) . 101_555 n
+O5 Mn1 2.163(33) . 102_454 n
+O5 C1 1.250(34) . 1_555 n
+O5 H1 1.99(8) . 1_555 n
+O5 H12 1.87(7) . 101_445 n
+O6 Mn1 2.074(29) . 102_454 n
+O6 C3 1.263(29) . 101_445 n
+O6 H3 1.97(6) . 1_555 n
+C1 O3 1.251(33) . 1_555 n
+C1 O5 1.250(34) . 1_555 n
+C1 H1 1.114(30) . 1_555 n
+H1 O3 1.96(7) . 1_555 n
+H1 O5 1.99(8) . 1_555 n
+H1 C1 1.114(30) . 1_555 n
+C2 O1 1.285(29) . 101_455 n
+C2 O2 1.236(31) . 102_454 n
+C2 H2 1.12(4) . 1_555 n
+H2 O2 1.94(6) . 102_454 n
+H2 C2 1.12(4) . 1_555 n
+C3 O4 1.261(31) . 1_555 n
+C3 O6 1.263(29) . 101_555 n
+C3 H3 1.13(4) . 101_555 n
+H3 O4 2.01(5) . 101_445 n
+H3 O6 1.97(6) . 1_555 n
+H3 C3 1.13(4) . 101_445 n
+N11 H12 0.97(6) . 1_555 n
+N11 H13 1.09(7) . 1_555 n
+N11 C12 1.47(4) . 1_555 n
+N11 H14 2.03(6) . 1_655 n
+N11 H15 2.05(6) . 1_555 n
+N11 H16 2.03(6) . 1_555 n
+N11 C11 1.49(4) . 1_655 n
+N11 H17 2.03(6) . 1_655 n
+N11 H19 1.96(7) . 1_655 n
+H12 O5 1.87(7) . 101_555 n
+H12 N11 0.97(6) . 1_555 n
+H12 H13 1.71(9) . 1_555 n
+H12 C12 2.08(8) . 1_555 n
+H12 C11 2.00(10) . 1_655 n
+H13 O2 1.79(8) . 1_555 n
+H13 N11 1.09(7) . 1_555 n
+H13 H12 1.71(9) . 1_555 n
+H13 C11 1.93(10) . 1_655 n
+C12 N11 1.47(4) . 1_555 n
+C12 H12 2.08(8) . 1_555 n
+C12 H14 0.987(33) . 1_655 n
+C12 H15 0.98(4) . 1_555 n
+C12 H16 1.008(31) . 1_555 n
+H14 N11 2.03(6) . 1_455 n
+H14 C12 0.987(33) . 1_455 n
+H14 H15 1.61(4) . 1_455 n
+H14 H16 1.63(4) . 1_455 n
+H15 N11 2.05(6) . 1_555 n
+H15 C12 0.98(4) . 1_555 n
+H15 H14 1.61(4) . 1_655 n
+H15 H16 1.62(4) . 1_555 n
+H16 N11 2.03(6) . 1_555 n
+H16 C12 1.008(31) . 1_555 n
+H16 H14 1.63(4) . 1_655 n
+H16 H15 1.62(4) . 1_555 n
+C11 N11 1.49(4) . 1_455 n
+C11 H12 2.00(10) . 1_455 n
+C11 H13 1.93(10) . 1_455 n
+C11 H17 0.977(32) . 1_555 n
+C11 H18 0.976(35) . 1_555 n
+C11 H19 1.005(35) . 1_555 n
+H17 N11 2.03(6) . 1_455 n
+H17 C11 0.977(32) . 1_555 n
+H17 H18 1.61(4) . 1_555 n
+H17 H19 1.64(4) . 1_555 n
+H18 C11 0.976(35) . 1_555 n
+H18 H17 1.61(4) . 1_555 n
+H18 H19 1.61(4) . 1_555 n
+H19 N11 1.96(7) . 1_455 n
+H19 C11 1.005(35) . 1_555 n
+H19 H17 1.64(4) . 1_555 n
+H19 H18 1.61(4) . 1_555 n

@@ -1,0 +1,175 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-11-22 23:50:20 +0200 (Fri, 22 Nov 2019) $
+#$Revision: 231599 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/4/34/60/4346051.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4346051
+loop_
+_publ_author_name
+'Gonzalez, Miguel I.'
+'Bloch, Eric D.'
+'Mason, Jarad A.'
+'Teat, Simon J.'
+'Long, Jeffrey R.'
+_publ_section_title
+;
+ Single-crystal-to-single-crystal metalation of a metal-organic framework:
+ a route toward structurally well-defined catalysts.
+;
+_journal_issue                   6
+_journal_name_full               'Inorganic chemistry'
+_journal_page_first              2995
+_journal_page_last               3005
+_journal_paper_doi               10.1021/acs.inorgchem.5b00096
+_journal_volume                  54
+_journal_year                    2015
+_chemical_compound_source        synthesis
+_chemical_formula_moiety
+'Zr24 (CuCl2)19.656 O16 O17.376 (NC2)5.616 (NC2)4.688 (C12N2O4H6)19.656 '
+_chemical_formula_sum
+'C256.48 H117.936 Cl39.312 Cu19.656 N49.616 O112 Zr24'
+_chemical_name_common            Zr6O4(OH)4(bpydc)4.91(CuCl2)4.91
+_space_group_IT_number           205
+_space_group_name_Hall           '-P 2ac 2ab 3'
+_space_group_name_H-M_alt        'P a -3'
+_symmetry_cell_setting           cubic
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   26.08867(40)
+_cell_length_b                   26.08867(40)
+_cell_length_c                   26.08867(40)
+_cell_measurement_temperature    100
+_cell_volume                     17756.4(5)
+_computing_cell_refinement       'TOPAS, Bruker AXS 2005, Karlsruhe, Germany'
+_computing_publication_material  'TOPAS, Bruker AXS 2005, Karlsruhe, Germany'
+_computing_structure_refinement  'TOPAS, Bruker AXS 2005, Karlsruhe, Germany'
+_computing_structure_solution    'TOPAS, Bruker AXS 2005, Karlsruhe, Germany'
+_diffrn_ambient_pressure         1
+_diffrn_ambient_temperature      100
+_diffrn_measurement_device_type  custom
+_diffrn_radiation_monochromator  Si(111)
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.413746
+_diffrn_source_type              synchrotron
+_exptl_crystal_colour            Yellow
+_exptl_crystal_density_method    'not measured'
+_pd_instr_location
+' 11-BM, Advanced Photon Source, Argonne National Lab '
+_pd_meas_2theta_range_inc        0.005
+_pd_meas_2theta_range_max        18
+_pd_meas_2theta_range_min        1.3
+_pd_meas_number_of_points        3340
+_pd_meas_scan_method             step
+_pd_proc_ls_background_function  'Chebychev polynomial'
+_pd_proc_ls_prof_R_factor        0.055
+_pd_proc_ls_prof_wR_factor       0.068
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.42
+_refine_ls_hydrogen_treatment    constr
+_refine_ls_matrix_type           fullcycle
+_refine_ls_number_parameters     45
+_refine_ls_structure_factor_coef Inet
+_cod_data_source_file            ic5b00096_si_002.cif
+_cod_data_source_block           UiO67_bpy_CuCl2_activated
+_cod_original_cell_volume        17756.44(81)
+_cod_original_formula_sum
+'Zr24 Cu19.656 Cl39.312 C256.48 N49.616 O112 H117.936 '
+_cod_database_code               4346051
+loop_
+_symmetry_equiv_pos_as_xyz
+'-x, -y, -z'
+'-x, y+1/2, -z+1/2'
+'-x+1/2, -y, z+1/2'
+'-x+1/2, y+1/2, z'
+'-y, -z, -x'
+'-y, z+1/2, -x+1/2'
+'-y+1/2, -z, x+1/2'
+'-y+1/2, z+1/2, x'
+'-z, -x, -y'
+'-z, x+1/2, -y+1/2'
+'-z+1/2, -x, y+1/2'
+'-z+1/2, x+1/2, y'
+'z, -x+1/2, y+1/2'
+'z, x, y'
+'z+1/2, -x+1/2, -y'
+'z+1/2, x, -y+1/2'
+'y, -z+1/2, x+1/2'
+'y, z, x'
+'y+1/2, -z+1/2, -x'
+'y+1/2, z, -x+1/2'
+'x, -y+1/2, z+1/2'
+'x, y, z'
+'x+1/2, -y+1/2, -z'
+'x+1/2, y, -z+1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_B_iso_or_equiv
+Zr Zr 24 0.51544(21) 0.48355(22) 0.40883(14) 1 1.55046
+Cu Cu 24 0.20751(49) 0.48054(37) 0.28843(44) 0.8192(36) 6.11334
+Cl1 Cl 24 0.1449(10) 0.5331(13) 0.2899(10) 0.8192(36) 16.47211
+Cl2 Cl 24 0.2028(10) 0.4622(11) 0.36575(94) 0.8192(36) 13.18961
+O5a O 8 0.4646(19) 0.4646(19) 0.4646(19) 0.5 0.82058
+O5b O 8 0.4461(20) 0.4461(20) 0.4461(20) 0.5 0.82058
+O6a O 24 0.53878 0.44838 0.47048 0.5 0.82058
+O6b O 24 0.55356 0.43032 0.47171 0.5 0.82058
+C1 C 24 0.3037431 0.4676534 0.2318646 0.8192(36) 1.51515
+C2 C 24 0.3550647 0.4564382 0.228397 0.8192(36) 1.51515
+C3 C 24 0.3862972 0.4628375 0.2702931 0.8192(36) 1.51515
+C4 C 24 0.3662082 0.4804519 0.3156568 0.8192(36) 1.51515
+C5 C 24 0.3148867 0.491667 0.3191245 0.8192(36) 1.51515
+N1 N 24 0.28443 0.4854267 0.2782691 0.8192(36) 1.51515
+C6 C 24 0.2640528 0.4659763 0.2001032 0.8192(36) 1.51515
+C7 C 24 0.2707247 0.4497382 0.1504694 0.8192(36) 1.51515
+C8 C 24 0.2296413 0.4480022 0.1175932 0.8192(36) 1.51515
+C9 C 24 0.1818859 0.4625043 0.1343509 0.8192(36) 1.51515
+C10 C 24 0.1752139 0.4787423 0.1839847 0.8192(36) 1.51515
+N2 N 24 0.2152768 0.4804352 0.2160442 0.8192(36) 1.51515
+C11 C 24 0.3991139 0.4871939 0.3597974 0.8192(36) 1.51515
+O1 O 24 0.3805766 0.5035126 0.4016653 0.8192(36) 1.51515
+O2 O 24 0.4464884 0.4767837 0.3566123 0.8192(36) 1.51515
+C12 C 24 0.1386015 0.4606753 0.09971348 0.8192(36) 1.51515
+O3 O 24 0.09333398 0.4633738 0.1172185 0.8192(36) 1.51515
+O4 O 24 0.1459365 0.456374 0.05185376 0.8192(36) 1.51515
+H1 H 24 0.3689596 0.4442549 0.1970203 0.8192(36) 1.51515
+H2 H 24 0.4217947 0.4550803 0.2678946 0.8192(36) 1.51515
+H3 H 24 0.3009917 0.5038503 0.3505012 0.8192(36) 1.51515
+H4 H 24 0.3037556 0.4397076 0.1388786 0.8192(36) 1.51515
+H5 H 24 0.234256 0.4367709 0.08326305 0.8192(36) 1.51515
+H6 H 24 0.142183 0.4887729 0.1955755 0.8192(36) 1.51515
+O1w O 24 0.3684 0.5107 0.4087 0.1808(36) 1.5
+O2w O 24 0.452 0.4946 0.353 0.1808(36) 1.5
+O3w O 24 0.087 0.4645 0.1302 0.1808(36) 1.5
+O4w O 24 0.1539 0.4685 0.0421 0.1808(36) 1.5
+N1s N 24 0.14889 0.58447 0.10905 0.234(13) 3
+C1s C 24 0.16804 0.60358 0.14403 0.234(13) 3
+C2s C 24 0.19272 0.62954 0.18677 0.234(13) 3
+N2s N 8 0.38251 0.38251 0.38251 0.586(24) 13
+C3s C 24 0.34812 0.36578 0.36043 0.1952(81) 13
+C4s C 24 0.30379 0.34602 0.33253 0.1952(81) 13
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_source
+C C 'International Tables for Crystallography (Vol. IV)'
+H H 'International Tables for Crystallography (Vol. IV)'
+N N 'International Tables for Crystallography (Vol. IV)'
+O O 'International Tables for Crystallography (Vol. IV)'
+Zr Zr 'International Tables for Crystallography (Vol. IV)'
+Cu Cu 'International Tables for Crystallography (Vol. IV)'
+Cl Cl '92International Tables for Crystallography (Vol. IV)'

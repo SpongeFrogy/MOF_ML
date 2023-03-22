@@ -1,0 +1,202 @@
+#------------------------------------------------------------------------------
+#$Date: 2022-09-15 01:26:15 +0300 (Thu, 15 Sep 2022) $
+#$Revision: 277847 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/4/06/02/4060217.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4060217
+loop_
+_publ_author_name
+'Danil N. Dybtsev'
+'Hyungphil Chun'
+'Sun Hong Yoon'
+'Dongwoo Kim'
+'Kimoon Kim'
+_publ_section_title
+;
+Microporous Manganese Formate: A Simple Metal-Organic Porous Material
+with High Framework Stability and Highly Selective Gas Sorption Properties
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              32
+_journal_page_last               33
+_journal_paper_doi               10.1021/ja038678c
+_journal_volume                  126
+_journal_year                    2004
+_chemical_formula_sum            'C2 H2 Mn O4'
+_chemical_formula_weight         144.97
+_space_group_IT_number           33
+_space_group_name_Hall           'P 2c -2n'
+_space_group_name_H-M_alt        'P n a 21'
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'P 2c -2n'
+_symmetry_space_group_name_H-M   'P n a 21'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   12.8962(14)
+_cell_length_b                   8.3888(9)
+_cell_length_c                   11.6442(13)
+_cell_measurement_reflns_used    ?
+_cell_measurement_temperature    223(2)
+_cell_measurement_theta_max      ?
+_cell_measurement_theta_min      ?
+_cell_volume                     1259.7(2)
+_diffrn_ambient_temperature      223(2)
+_diffrn_detector_area_resol_mean ?
+_diffrn_measurement_device_type  ?
+_diffrn_measurement_method       ?
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0712
+_diffrn_reflns_av_sigmaI/netI    0.0648
+_diffrn_reflns_limit_h_max       17
+_diffrn_reflns_limit_h_min       -13
+_diffrn_reflns_limit_k_max       11
+_diffrn_reflns_limit_k_min       -11
+_diffrn_reflns_limit_l_max       14
+_diffrn_reflns_limit_l_min       -12
+_diffrn_reflns_number            7047
+_diffrn_reflns_theta_max         28.27
+_diffrn_reflns_theta_min         2.90
+_diffrn_standards_decay_%        ?
+_diffrn_standards_interval_count ?
+_diffrn_standards_interval_time  ?
+_diffrn_standards_number         ?
+_exptl_absorpt_coefficient_mu    3.024
+_exptl_absorpt_correction_T_max  ?
+_exptl_absorpt_correction_T_min  ?
+_exptl_absorpt_correction_type   ?
+_exptl_absorpt_process_details   ?
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    2.293
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       plate
+_exptl_crystal_F_000             852
+_exptl_crystal_size_max          ?
+_exptl_crystal_size_mid          ?
+_exptl_crystal_size_min          ?
+_refine_ls_abs_structure_details 'Flack H D (1983), Acta Cryst. A39, 876-881'
+_refine_ls_abs_structure_Flack   0.47(3)
+_refine_ls_extinction_coef       ?
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.033
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     190
+_refine_ls_number_reflns         2795
+_refine_ls_number_restraints     1
+_refine_ls_restrained_S_all      1.033
+_refine_ls_R_factor_all          0.0473
+_refine_ls_R_factor_gt           0.0440
+_refine_ls_shift/su_max          0.002
+_refine_ls_shift/su_mean         0.001
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0706P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.1097
+_refine_ls_wR_factor_ref         0.1118
+_reflns_number_gt                2606
+_reflns_number_total             2795
+_reflns_threshold_expression     >2sigma(I)
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_database_code               4060217
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z+1/2'
+'x+1/2, -y+1/2, z'
+'-x+1/2, y+1/2, z+1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Mn1 Mn 0.53471(5) 0.13727(7) 0.21804(6) 0.01174(17) Uani 1 1 d . . .
+Mn2 Mn 0.69702(5) -0.12624(7) 0.35106(6) 0.01230(17) Uani 1 1 d . . .
+Mn3 Mn 0.62330(5) 0.50183(7) 0.28016(8) 0.01411(16) Uani 1 1 d . . .
+O12 O 0.4762(3) 0.3693(3) 0.2713(4) 0.0195(7) Uani 1 1 d . . .
+O11 O 0.6569(3) 0.3573(4) 0.4308(4) 0.0226(8) Uani 1 1 d . . .
+O10 O 0.6238(3) 0.1072(4) 0.3778(3) 0.0170(7) Uani 1 1 d . . .
+O9 O 0.7645(3) -0.3598(3) 0.2991(3) 0.0190(7) Uani 1 1 d . . .
+O8 O 0.5860(3) 0.6563(4) 0.1345(4) 0.0239(8) Uani 1 1 d . . .
+O7 O 0.6116(3) -0.0919(4) 0.1891(3) 0.0178(8) Uani 1 1 d . . .
+O6 O 0.7529(3) -0.1127(4) 0.5227(4) 0.0264(9) Uani 1 1 d . . .
+O5 O 0.4880(3) 0.1730(4) 0.0437(3) 0.0223(8) Uani 1 1 d . . .
+C6 C 0.7845(3) -0.2212(5) 0.5834(4) 0.0169(10) Uani 1 1 d . . .
+H6 H 0.7713 -0.3260 0.5587 0.020 Uiso 1 1 calc R . .
+O4 O 0.8453(3) -0.0374(4) 0.2984(4) 0.0280(9) Uani 1 1 d . . .
+C5 C 0.8586(3) -0.3990(5) 0.2831(5) 0.0186(9) Uani 1 1 d . . .
+H5 H 0.9085 -0.3173 0.2856 0.022 Uiso 1 1 calc R . .
+O3 O 0.3897(3) 0.0350(4) 0.2646(4) 0.0238(8) Uani 1 1 d . . .
+O2 O 0.6665(2) 0.2957(4) 0.1770(3) 0.0158(7) Uani 1 1 d . . .
+C4 C 0.6585(4) 0.2123(6) 0.4463(5) 0.0201(10) Uani 1 1 d . . .
+H4 H 0.6881 0.1759 0.5152 0.024 Uiso 1 1 calc R . .
+O1 O 0.5784(2) -0.3027(4) 0.3952(3) 0.0155(7) Uani 1 1 d . . .
+C3 C 0.4743(4) 0.2959(6) -0.0122(4) 0.0178(10) Uani 1 1 d . . .
+H3 H 0.5044 0.3905 0.0151 0.021 Uiso 1 1 calc R . .
+C2 C 0.5833(4) 0.8004(6) 0.1175(4) 0.0195(10) Uani 1 1 d . . .
+H2 H 0.5584 0.8349 0.0459 0.023 Uiso 1 1 calc R . .
+C1 C 0.3816(4) 0.4025(5) 0.2897(5) 0.0215(11) Uani 1 1 d . . .
+H1 H 0.3353 0.3165 0.2972 0.026 Uiso 1 1 calc R . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Mn1 0.0117(3) 0.0079(3) 0.0156(4) 0.0014(3) -0.0015(3) 0.0001(2)
+Mn2 0.0117(3) 0.0087(3) 0.0166(4) 0.0016(3) -0.0018(3) -0.0001(2)
+Mn3 0.0156(3) 0.0087(3) 0.0180(3) -0.0020(2) 0.0010(3) -0.0012(2)
+O12 0.0139(16) 0.0124(14) 0.032(2) -0.0017(15) 0.0029(15) 0.0015(11)
+O11 0.034(2) 0.0123(15) 0.022(2) -0.0004(14) -0.0032(16) 0.0004(14)
+O10 0.0250(18) 0.0108(13) 0.0151(18) 0.0029(13) -0.0039(13) 0.0014(12)
+O9 0.0148(16) 0.0124(15) 0.030(2) -0.0035(14) 0.0011(15) 0.0008(11)
+O8 0.034(2) 0.0156(15) 0.0217(19) -0.0028(15) -0.0029(16) 0.0027(15)
+O7 0.0204(17) 0.0130(14) 0.0200(19) -0.0007(14) -0.0031(13) 0.0043(13)
+O6 0.033(2) 0.0221(17) 0.024(2) -0.0002(16) -0.0114(16) 0.0009(17)
+O5 0.029(2) 0.0184(15) 0.0195(19) 0.0037(15) -0.0111(16) -0.0022(15)
+C6 0.019(2) 0.014(2) 0.018(2) -0.0016(19) -0.0023(19) 0.0005(18)
+O4 0.0181(17) 0.0153(15) 0.050(3) 0.0040(18) 0.0040(17) -0.0049(13)
+C5 0.014(2) 0.0167(19) 0.025(3) -0.001(2) 0.001(2) -0.0032(17)
+O3 0.0195(17) 0.0145(15) 0.037(2) 0.0050(17) 0.0028(15) -0.0024(13)
+O2 0.0168(16) 0.0131(14) 0.0174(17) -0.0025(13) 0.0042(13) -0.0019(13)
+C4 0.025(3) 0.019(2) 0.017(3) -0.002(2) -0.0023(19) 0.007(2)
+O1 0.0167(17) 0.0126(14) 0.0171(17) -0.0022(13) 0.0022(13) -0.0001(13)
+C3 0.014(2) 0.019(2) 0.021(3) 0.000(2) -0.0063(18) -0.0011(18)
+C2 0.024(3) 0.019(2) 0.015(3) 0.002(2) -0.007(2) 0.003(2)
+C1 0.014(2) 0.0145(19) 0.036(3) -0.007(2) 0.000(2) -0.0021(17)

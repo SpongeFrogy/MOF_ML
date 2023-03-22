@@ -1,0 +1,561 @@
+#------------------------------------------------------------------------------
+#$Date: 2020-11-06 14:05:18 +0200 (Fri, 06 Nov 2020) $
+#$Revision: 258811 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/7/70/56/7705663.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7705663
+loop_
+_publ_author_name
+'Prasad, Thazhe Kootteri'
+'Suh, Myunghyun Paik'
+_publ_section_title
+;
+ Synthesis of multifunctional metal-organic frameworks and tuning the
+ functionalities with pendant ligands.
+;
+_journal_issue                   42
+_journal_name_full
+'Dalton transactions (Cambridge, England : 2003)'
+_journal_page_first              15034
+_journal_page_last               15040
+_journal_paper_doi               10.1039/d0dt03012k
+_journal_volume                  49
+_journal_year                    2020
+_chemical_formula_sum            'C156 H144 O64 Zn16'
+_chemical_formula_weight         4088.62
+_chemical_properties_physical    Air-sensitive,Moisture-sensitive
+_space_group_crystal_system      cubic
+_space_group_IT_number           225
+_space_group_name_Hall           '-F 4 2 3'
+_space_group_name_H-M_alt        'F m -3 m'
+_audit_creation_method           SHELXL-2013
+_audit_update_record
+;
+2020-06-22 deposited with the CCDC.	2020-10-06 downloaded from the CCDC.
+;
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   30.206(10)
+_cell_length_b                   30.206(10)
+_cell_length_c                   30.206(10)
+_cell_measurement_reflns_used    55185
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      23.286
+_cell_measurement_theta_min      1.150
+_cell_volume                     27560(16)
+_computing_cell_refinement       HKL3000sm
+_computing_data_collection       'ADSC Q210 ADX program'
+_computing_data_reduction        HKL3000sm
+_computing_molecular_graphics    'Mercury (Bruno, et.al., 2002)'
+_computing_publication_material  'WinGX (Farrugia, 2012)'
+_computing_structure_refinement  'SHELXL-2013 (Sheldrick, 2013)'
+_computing_structure_solution    'SHELXL-2013 (Sheldrick, 2013)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 0.730
+_diffrn_measured_fraction_theta_max 0.862
+_diffrn_measurement.details
+' 1.00 degrees, 1.0 sec, detector distance 100.00 mm'
+_diffrn_measurement_device_type  'ADSC Quantum-210 detector '
+_diffrn_measurement_method       'omega scan'
+_diffrn_radiation_monochromator  'silicon (111) double crystal monochromator'
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.700
+_diffrn_reflns_av_R_equivalents  0.0118
+_diffrn_reflns_av_unetI/netI     0.0066
+_diffrn_reflns_Laue_measured_fraction_full 0.730
+_diffrn_reflns_Laue_measured_fraction_max 0.862
+_diffrn_reflns_limit_h_max       34
+_diffrn_reflns_limit_h_min       1
+_diffrn_reflns_limit_k_max       23
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       23
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            1601
+_diffrn_reflns_point_group_measured_fraction_full 0.730
+_diffrn_reflns_point_group_measured_fraction_max 0.862
+_diffrn_reflns_theta_full        24.835
+_diffrn_reflns_theta_max         23.286
+_diffrn_reflns_theta_min         1.150
+_diffrn_source                   'PLSII 2D bending magnet'
+_exptl_absorpt_coefficient_mu    0.709
+_exptl_absorpt_correction_T_max  0.075
+_exptl_absorpt_correction_T_min  0
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   'HKL3000 Scalepack'
+_exptl_crystal_colour            'pale yellow'
+_exptl_crystal_density_diffrn    0.493
+_exptl_crystal_description       cubic
+_exptl_crystal_F_000             4144
+_exptl_crystal_preparation       Luminescent
+_exptl_crystal_recrystallization_method 'Solvothermal synthesis'
+_exptl_crystal_size_max          0.2
+_exptl_crystal_size_mid          0.2
+_exptl_crystal_size_min          0.2
+_refine_diff_density_max         0.386
+_refine_diff_density_min         -0.313
+_refine_diff_density_rms         0.046
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.229
+_refine_ls_hydrogen_treatment    undef
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     16
+_refine_ls_number_reflns         950
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.229
+_refine_ls_R_factor_all          0.1011
+_refine_ls_R_factor_gt           0.0927
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.2000P)^2^] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.2909
+_refine_ls_wR_factor_ref         0.3096
+_reflns_Friedel_coverage         0.000
+_reflns_number_gt                621
+_reflns_number_total             950
+_reflns_threshold_expression     'I > 2\s(I)'
+_cod_data_source_file            d0dt03012k2.cif
+_cod_data_source_block           SNU-174
+_cod_depositor_comments
+'Adding full bibliography for 7705661--7705665.cif.'
+_cod_original_cell_volume        27560(27)
+_cod_database_code               7705663
+_shelx_space_group_comment
+;
+The symmetry employed for this shelxl refinement is uniquely defined
+by the following loop, which should always be used as a source of
+symmetry information in preference to the above space-group names.
+They are only intended as comments.
+;
+_shelxl_version_number           2013-4
+_shelx_res_file
+;
+TITL OPr,[Fm-3m]
+CELL  0.70000  30.2060  30.2060  30.2060   90.000   90.000   90.000
+ZERR     2.00   0.0100   0.0100   0.0100    0.000    0.000    0.000
+LATT   4
+SYMM    X, - Y, - Z
+SYMM  - X, - Y,   Z
+SYMM  - X,   Y, - Z
+SYMM  - Y,   X,   Z
+SYMM    Y,   X, - Z
+SYMM    Y, - X,   Z
+SYMM  - Y, - X, - Z
+SYMM    Y,   Z,   X
+SYMM  - Y, - Z,   X
+SYMM    Y, - Z, - X
+SYMM  - Y,   Z, - X
+SYMM  - Z,   Y,   X
+SYMM  - Z, - Y, - X
+SYMM    Z, - Y,   X
+SYMM    Z,   Y, - X
+SYMM    Z,   X,   Y
+SYMM  - Z,   X, - Y
+SYMM  - Z, - X,   Y
+SYMM    Z, - X, - Y
+SYMM  - X, - Z, - Y
+SYMM  - X,   Z,   Y
+SYMM    X, - Z,   Y
+SYMM    X,   Z, - Y
+SFAC  C    H    O    ZN
+UNIT  312  288  128  32
+MERG   2
+OMIT     4   6  32
+OMIT     1  21  25
+OMIT     8  10  10
+OMIT     5  15  29
+OMIT     1  13  29
+OMIT     4  12  30
+OMIT    16  16  22
+OMIT     4  10  30
+OMIT     4  18  28
+OMIT    11  11  15
+OMIT     2  12  20
+OMIT     0   0  20
+OMIT     8   8  14
+OMIT     4  14  30
+OMIT     6  10  22
+OMIT     2   2  20
+OMIT     0   0  30
+OMIT     2  12  22
+OMIT     3   3   3
+OMIT     5   5  25
+OMIT     2  10  30
+OMIT     0   6  14
+OMIT    10  10  20
+OMIT     5   9  25
+OMIT     2  14  22
+OMIT     0  16  22
+OMIT     1   3  15
+OMIT     6   6  14
+OMIT     0   2  30
+OMIT     0   4  26
+OMIT     0  12  22
+FMAP   2
+PLAN    5
+ACTA
+BOND
+L.S.   4
+WGHT    0.200000
+FVAR       1.66271
+O2    3    0.223780    0.276220    0.151731    10.50000    0.28143    0.28143 =
+         0.18841    0.03640   -0.03640    0.02010
+C1    1   10.250000   10.250000   10.134300    10.25000    0.23809
+C2    1   10.250000   10.250000   10.076900    10.25000    0.27971
+C3    1   10.221400   10.278600   10.056300    10.50000    0.43155
+C5    1   10.250000   10.250000   10.000000    10.12500    0.35857
+C4    1   10.217222   10.282769   10.000000    10.25000    0.34989
+MOLE    1
+ZN1   4    0.213126    0.286874    0.213126    10.16667    0.16696    0.16696 =
+         0.16696    0.01177   -0.01177    0.01177
+O1    3    0.250000    0.250000    0.250000    10.04167    0.12510    0.12510 =
+         0.12510    0.00000    0.00000    0.00000
+HKLF    4
+
+REM  OPr,[Fm-3m]
+REM R1 =  0.0927 for     621 Fo > 4sig(Fo)  and  0.1011 for all     950 data
+REM     16 parameters refined using      0 restraints
+
+END
+
+WGHT      0.2000      0.0000
+
+REM Highest difference peak  0.386,  deepest hole -0.313,  1-sigma level  0.046
+Q1    1   0.1934  0.3173  0.0000  10.50000  0.05    0.39
+Q2    1   0.2386  0.2172  0.0000  10.50000  0.05    0.19
+Q3    1   0.2709  0.2804  0.0667  11.00000  0.05    0.19
+Q4    1   0.1725  0.3275  0.1725  10.16667  0.05    0.16
+Q5    1   0.1826  0.2357  0.1826  10.50000  0.05    0.15
+;
+_shelx_res_checksum              65905
+loop_
+_space_group_symop_operation_xyz
+'x, y, z'
+'x, -y, -z'
+'-x, -y, z'
+'-x, y, -z'
+'-y, x, z'
+'y, x, -z'
+'y, -x, z'
+'-y, -x, -z'
+'y, z, x'
+'-y, -z, x'
+'y, -z, -x'
+'-y, z, -x'
+'-z, y, x'
+'-z, -y, -x'
+'z, -y, x'
+'z, y, -x'
+'z, x, y'
+'-z, x, -y'
+'-z, -x, y'
+'z, -x, -y'
+'-x, -z, -y'
+'-x, z, y'
+'x, -z, y'
+'x, z, -y'
+'x, y+1/2, z+1/2'
+'x, -y+1/2, -z+1/2'
+'-x, -y+1/2, z+1/2'
+'-x, y+1/2, -z+1/2'
+'-y, x+1/2, z+1/2'
+'y, x+1/2, -z+1/2'
+'y, -x+1/2, z+1/2'
+'-y, -x+1/2, -z+1/2'
+'y, z+1/2, x+1/2'
+'-y, -z+1/2, x+1/2'
+'y, -z+1/2, -x+1/2'
+'-y, z+1/2, -x+1/2'
+'-z, y+1/2, x+1/2'
+'-z, -y+1/2, -x+1/2'
+'z, -y+1/2, x+1/2'
+'z, y+1/2, -x+1/2'
+'z, x+1/2, y+1/2'
+'-z, x+1/2, -y+1/2'
+'-z, -x+1/2, y+1/2'
+'z, -x+1/2, -y+1/2'
+'-x, -z+1/2, -y+1/2'
+'-x, z+1/2, y+1/2'
+'x, -z+1/2, y+1/2'
+'x, z+1/2, -y+1/2'
+'x+1/2, y, z+1/2'
+'x+1/2, -y, -z+1/2'
+'-x+1/2, -y, z+1/2'
+'-x+1/2, y, -z+1/2'
+'-y+1/2, x, z+1/2'
+'y+1/2, x, -z+1/2'
+'y+1/2, -x, z+1/2'
+'-y+1/2, -x, -z+1/2'
+'y+1/2, z, x+1/2'
+'-y+1/2, -z, x+1/2'
+'y+1/2, -z, -x+1/2'
+'-y+1/2, z, -x+1/2'
+'-z+1/2, y, x+1/2'
+'-z+1/2, -y, -x+1/2'
+'z+1/2, -y, x+1/2'
+'z+1/2, y, -x+1/2'
+'z+1/2, x, y+1/2'
+'-z+1/2, x, -y+1/2'
+'-z+1/2, -x, y+1/2'
+'z+1/2, -x, -y+1/2'
+'-x+1/2, -z, -y+1/2'
+'-x+1/2, z, y+1/2'
+'x+1/2, -z, y+1/2'
+'x+1/2, z, -y+1/2'
+'x+1/2, y+1/2, z'
+'x+1/2, -y+1/2, -z'
+'-x+1/2, -y+1/2, z'
+'-x+1/2, y+1/2, -z'
+'-y+1/2, x+1/2, z'
+'y+1/2, x+1/2, -z'
+'y+1/2, -x+1/2, z'
+'-y+1/2, -x+1/2, -z'
+'y+1/2, z+1/2, x'
+'-y+1/2, -z+1/2, x'
+'y+1/2, -z+1/2, -x'
+'-y+1/2, z+1/2, -x'
+'-z+1/2, y+1/2, x'
+'-z+1/2, -y+1/2, -x'
+'z+1/2, -y+1/2, x'
+'z+1/2, y+1/2, -x'
+'z+1/2, x+1/2, y'
+'-z+1/2, x+1/2, -y'
+'-z+1/2, -x+1/2, y'
+'z+1/2, -x+1/2, -y'
+'-x+1/2, -z+1/2, -y'
+'-x+1/2, z+1/2, y'
+'x+1/2, -z+1/2, y'
+'x+1/2, z+1/2, -y'
+'-x, -y, -z'
+'-x, y, z'
+'x, y, -z'
+'x, -y, z'
+'y, -x, -z'
+'-y, -x, z'
+'-y, x, -z'
+'y, x, z'
+'-y, -z, -x'
+'y, z, -x'
+'-y, z, x'
+'y, -z, x'
+'z, -y, -x'
+'z, y, x'
+'-z, y, -x'
+'-z, -y, x'
+'-z, -x, -y'
+'z, -x, y'
+'z, x, -y'
+'-z, x, y'
+'x, z, y'
+'x, -z, -y'
+'-x, z, -y'
+'-x, -z, y'
+'-x, -y+1/2, -z+1/2'
+'-x, y+1/2, z+1/2'
+'x, y+1/2, -z+1/2'
+'x, -y+1/2, z+1/2'
+'y, -x+1/2, -z+1/2'
+'-y, -x+1/2, z+1/2'
+'-y, x+1/2, -z+1/2'
+'y, x+1/2, z+1/2'
+'-y, -z+1/2, -x+1/2'
+'y, z+1/2, -x+1/2'
+'-y, z+1/2, x+1/2'
+'y, -z+1/2, x+1/2'
+'z, -y+1/2, -x+1/2'
+'z, y+1/2, x+1/2'
+'-z, y+1/2, -x+1/2'
+'-z, -y+1/2, x+1/2'
+'-z, -x+1/2, -y+1/2'
+'z, -x+1/2, y+1/2'
+'z, x+1/2, -y+1/2'
+'-z, x+1/2, y+1/2'
+'x, z+1/2, y+1/2'
+'x, -z+1/2, -y+1/2'
+'-x, z+1/2, -y+1/2'
+'-x, -z+1/2, y+1/2'
+'-x+1/2, -y, -z+1/2'
+'-x+1/2, y, z+1/2'
+'x+1/2, y, -z+1/2'
+'x+1/2, -y, z+1/2'
+'y+1/2, -x, -z+1/2'
+'-y+1/2, -x, z+1/2'
+'-y+1/2, x, -z+1/2'
+'y+1/2, x, z+1/2'
+'-y+1/2, -z, -x+1/2'
+'y+1/2, z, -x+1/2'
+'-y+1/2, z, x+1/2'
+'y+1/2, -z, x+1/2'
+'z+1/2, -y, -x+1/2'
+'z+1/2, y, x+1/2'
+'-z+1/2, y, -x+1/2'
+'-z+1/2, -y, x+1/2'
+'-z+1/2, -x, -y+1/2'
+'z+1/2, -x, y+1/2'
+'z+1/2, x, -y+1/2'
+'-z+1/2, x, y+1/2'
+'x+1/2, z, y+1/2'
+'x+1/2, -z, -y+1/2'
+'-x+1/2, z, -y+1/2'
+'-x+1/2, -z, y+1/2'
+'-x+1/2, -y+1/2, -z'
+'-x+1/2, y+1/2, z'
+'x+1/2, y+1/2, -z'
+'x+1/2, -y+1/2, z'
+'y+1/2, -x+1/2, -z'
+'-y+1/2, -x+1/2, z'
+'-y+1/2, x+1/2, -z'
+'y+1/2, x+1/2, z'
+'-y+1/2, -z+1/2, -x'
+'y+1/2, z+1/2, -x'
+'-y+1/2, z+1/2, x'
+'y+1/2, -z+1/2, x'
+'z+1/2, -y+1/2, -x'
+'z+1/2, y+1/2, x'
+'-z+1/2, y+1/2, -x'
+'-z+1/2, -y+1/2, x'
+'-z+1/2, -x+1/2, -y'
+'z+1/2, -x+1/2, y'
+'z+1/2, x+1/2, -y'
+'-z+1/2, x+1/2, y'
+'x+1/2, z+1/2, y'
+'x+1/2, -z+1/2, -y'
+'-x+1/2, z+1/2, -y'
+'-x+1/2, -z+1/2, y'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_site_symmetry_order
+_atom_site_calc_flag
+_atom_site_refinement_flags_posn
+_atom_site_refinement_flags_adp
+_atom_site_refinement_flags_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+O2 O 0.22378(17) 0.27622(17) 0.15173(19) 0.250(3) Uani 1 2 d S T P . .
+C1 C 0.2500 0.2500 0.1343 0.238(5) Uiso 1 4 d S . P . .
+C2 C 0.2500 0.2500 0.0769 0.280(6) Uiso 1 4 d S . P . .
+C3 C 0.2214 0.2786 0.0563 0.432(13) Uiso 1 2 d S . P . .
+C5 C 0.2500 0.2500 0.0000 0.359(11) Uiso 1 8 d S . P . .
+C4 C 0.2172 0.2828 0.0000 0.350(13) Uiso 1 4 d S . P . .
+Zn1 Zn 0.21313(2) 0.28687(2) 0.21313(2) 0.1670(10) Uani 1 6 d S T P . .
+O1 O 0.2500 0.2500 0.2500 0.125(2) Uani 1 24 d S T P . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+O2 0.281(4) 0.281(4) 0.188(4) 0.036(3) -0.036(3) 0.020(4)
+Zn1 0.1670(10) 0.1670(10) 0.1670(10) 0.0118(2) -0.0118(2) 0.0118(2)
+O1 0.125(2) 0.125(2) 0.125(2) 0.000 0.000 0.000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Zn Zn 0.2839 1.4301 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+C1 O2 Zn1 129.0(4) . . ?
+O2 C1 O2 129.6(5) . 75 ?
+O2 C1 C2 115.2(2) . . ?
+O2 C1 C2 115.2(2) 75 . ?
+C3 C2 C3 126.0 . 75 ?
+C3 C2 C1 117.0 . . ?
+C3 C2 C1 117.0 75 . ?
+C2 C3 C4 123.0 . . ?
+C4 C5 C4 180.0 169 . ?
+C5 C4 C3 84.0 . 99 ?
+C5 C4 C3 84.0 . . ?
+C3 C4 C3 168.0 99 . ?
+O2 Zn1 O2 107.4(2) 82 110 ?
+O2 Zn1 O2 107.4(2) 82 . ?
+O2 Zn1 O2 107.4(2) 110 . ?
+O2 Zn1 O1 111.5(2) 82 . ?
+O2 Zn1 O1 111.5(2) 110 . ?
+O2 Zn1 O1 111.5(2) . . ?
+O2 Zn1 Zn1 76.2(2) 82 52 ?
+O2 Zn1 Zn1 124.58(16) 110 52 ?
+O2 Zn1 Zn1 124.58(16) . 52 ?
+O1 Zn1 Zn1 35.3 . 52 ?
+O2 Zn1 Zn1 124.58(16) 82 26 ?
+O2 Zn1 Zn1 76.2(2) 110 26 ?
+O2 Zn1 Zn1 124.58(16) . 26 ?
+O1 Zn1 Zn1 35.3 . 26 ?
+Zn1 Zn1 Zn1 60.0 52 26 ?
+O2 Zn1 Zn1 124.58(16) 82 75 ?
+O2 Zn1 Zn1 124.58(16) 110 75 ?
+O2 Zn1 Zn1 76.2(2) . 75 ?
+O1 Zn1 Zn1 35.3 . 75 ?
+Zn1 Zn1 Zn1 60.0 52 75 ?
+Zn1 Zn1 Zn1 60.0 26 75 ?
+Zn1 O1 Zn1 109.5 52 26 ?
+Zn1 O1 Zn1 109.471(1) 52 75 ?
+Zn1 O1 Zn1 109.5 26 75 ?
+Zn1 O1 Zn1 109.5 52 . ?
+Zn1 O1 Zn1 109.5 26 . ?
+Zn1 O1 Zn1 109.5 75 . ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+O2 C1 1.238(8) . ?
+O2 Zn1 1.910(6) . ?
+C1 O2 1.238(8) 75 ?
+C1 C2 1.7338(6) . ?
+C2 C3 1.3710(5) . ?
+C2 C3 1.3712(5) 75 ?
+C3 C4 1.7099(6) . ?
+C5 C4 1.3999(5) 169 ?
+C5 C4 1.4000(5) . ?
+C4 C3 1.7098(6) 99 ?
+Zn1 O2 1.909(6) 82 ?
+Zn1 O2 1.909(6) 110 ?
+Zn1 O1 1.9292(13) . ?
+Zn1 Zn1 3.150(2) 52 ?
+Zn1 Zn1 3.150(2) 26 ?
+Zn1 Zn1 3.150(2) 75 ?
+O1 Zn1 1.9291(13) 52 ?
+O1 Zn1 1.9291(13) 26 ?
+O1 Zn1 1.9291(13) 75 ?
+loop_
+_platon_squeeze_void_nr
+_platon_squeeze_void_average_x
+_platon_squeeze_void_average_y
+_platon_squeeze_void_average_z
+_platon_squeeze_void_volume
+_platon_squeeze_void_count_electrons
+_platon_squeeze_void_content
+1 -0.004 -0.012 -0.005 22822 6837 ' '

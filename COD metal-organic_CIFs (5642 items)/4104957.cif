@@ -1,0 +1,394 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 17:52:41 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178795 $
+#$URL: svn://www.crystallography.net/cod/cif/4/10/49/4104957.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4104957
+loop_
+_publ_author_name
+'Shengchang Xiang'
+'Wei Zhou'
+'Jose M. Gallegos'
+'Yun Liu'
+'Banglin Chen'
+_publ_section_title
+;
+ Exceptionally High Acetylene Uptake in a Microporous Metal-Organic
+ Framework with Open Metal Sites
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              12415
+_journal_page_last               12419
+_journal_paper_doi               10.1021/ja904782h
+_journal_volume                  131
+_journal_year                    2009
+_chemical_formula_sum            'C6 H2 Cu O4'
+_chemical_formula_weight         201.62
+_space_group_IT_number           225
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-F 4 2 3'
+_symmetry_space_group_name_H-M   'F m -3 m'
+_audit_author_name               'Yun Liu'
+_audit_creation_date             2009-05-28T17:57
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2009-05-28T17:57  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            48
+_cell_length_a                   26.28791(29)
+_cell_length_b                   26.28791
+_cell_length_c                   26.28791
+_cell_measurement_temperature    4
+_cell_volume                     18166.4(2)
+_computing_structure_refinement  GSAS
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_wavelength     2.0782
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  1.00000
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ No correction is applied.
+;
+_pd_block_id                     2009-05-28T17:57|HKUST_0D|Yun_Liu|BT1
+_pd_calc_method                  'Rietveld Refinement'
+_pd_meas_2theta_range_inc        0.05
+_pd_meas_2theta_range_max        166.25
+_pd_meas_2theta_range_min        3.0
+_pd_phase_name                   HKUST
+_pd_proc_2theta_range_inc        0.05
+_pd_proc_2theta_range_max        166.2814
+_pd_proc_2theta_range_min        3.0314
+_pd_proc_info_datetime           2009-05-28T17:57:14
+_pd_proc_ls_background_function
+;   GSAS Background function number 1 with 10 terms.
+ Shifted Chebyshev function of 1st kind
+      1:    170.745     2:   -38.8490     3:    28.8415     4:   -11.7481    
+      5:    15.2244     6:   -5.89683     7:    3.96437     8:   -1.48102    
+      9:    1.41174    10:   0.761618    
+;
+_pd_proc_ls_peak_cutoff          0.00500
+_pd_proc_ls_profile_function
+;
+ CW Profile function number 3 with  19 terms
+ Pseudovoigt profile coefficients as parameterized in
+ P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+ Asymmetry correction of L.W. Finger, D.E. Cox & A. P. Jephcoat (1994).
+ J. Appl. Cryst.,27,892-900.
+ Peak tails are ignored  where the intensity is below 0.0050 times the peak
+   Aniso. broadening axis   0.0   0.0   1.0
+;
+_pd_proc_ls_prof_R_factor        0.0543
+_pd_proc_ls_prof_wR_expected     0.0709
+_pd_proc_ls_prof_wR_factor       0.0640
+_refine_ls_goodness_of_fit_all   0.91
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     15
+_refine_ls_number_restraints     15
+_refine_ls_R_Fsqd_factor         0.06467
+_refine_ls_shift/su_max          0.00
+_refine_ls_shift/su_mean         0.00
+_cod_data_source_file            ja904782h_si_001_1.cif
+_cod_data_source_block           HKUST_0D_publ
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to the
+built-in table from CIF Core dictionary named 'cif_core.dic' version
+2.4.1 from 2010-06-29 (17 times).
+
+'_geom_angle_publ_flag' value 'N'
+changed to 'n' according to the built-in table from CIF Core
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29 (20
+times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        18166.4(6)
+_cod_database_code               4104957
+_cod_database_fobs_code          4104957
+#BEGIN Tags that were not found in dictionaries:
+_gsas_exptl_extinct_corr_t_min   1.00000
+_gsas_exptl_extinct_corr_t_max   1.00000
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 +z,+x,+y
+3 +y,+z,+x
+4 +x,+y,-z
+5 -z,+x,+y
+6 +y,-z,+x
+7 -z,+x,-y
+8 -y,-z,+x
+9 +y,-z,-x
+10 -x,+y,-z
+11 -z,-x,+y
+12 +x,-y,-z
+13 +y,+x,+z
+14 +z,+y,+x
+15 +x,+z,+y
+16 +y,+x,-z
+17 -z,+y,+x
+18 +x,-z,+y
+19 -z,+y,-x
+20 -x,-z,+y
+21 +x,-z,-y
+22 -y,+x,-z
+23 -z,-y,+x
+24 +y,-x,-z
+-1 -x,-y,-z
+-2 -z,-x,-y
+-3 -y,-z,-x
+-4 -x,-y,+z
+-5 +z,-x,-y
+-6 -y,+z,-x
+-7 +z,-x,+y
+-8 +y,+z,-x
+-9 -y,+z,+x
+-10 +x,-y,+z
+-11 +z,+x,-y
+-12 -x,+y,+z
+-13 -y,-x,-z
+-14 -z,-y,-x
+-15 -x,-z,-y
+-16 -y,-x,+z
+-17 +z,-y,-x
+-18 -x,+z,-y
+-19 +z,-y,+x
+-20 +x,+z,-y
+-21 -x,+z,+y
+-22 +y,-x,+z
+-23 +z,+y,-x
+-24 -y,+x,+z
+101 +x,+y+1/2,+z+1/2
+102 +z,+x+1/2,+y+1/2
+103 +y,+z+1/2,+x+1/2
+104 +x,+y+1/2,-z+1/2
+105 -z,+x+1/2,+y+1/2
+106 +y,-z+1/2,+x+1/2
+107 -z,+x+1/2,-y+1/2
+108 -y,-z+1/2,+x+1/2
+109 +y,-z+1/2,-x+1/2
+110 -x,+y+1/2,-z+1/2
+111 -z,-x+1/2,+y+1/2
+112 +x,-y+1/2,-z+1/2
+113 +y,+x+1/2,+z+1/2
+114 +z,+y+1/2,+x+1/2
+115 +x,+z+1/2,+y+1/2
+116 +y,+x+1/2,-z+1/2
+117 -z,+y+1/2,+x+1/2
+118 +x,-z+1/2,+y+1/2
+119 -z,+y+1/2,-x+1/2
+120 -x,-z+1/2,+y+1/2
+121 +x,-z+1/2,-y+1/2
+122 -y,+x+1/2,-z+1/2
+123 -z,-y+1/2,+x+1/2
+124 +y,-x+1/2,-z+1/2
+-101 -x,-y+1/2,-z+1/2
+-102 -z,-x+1/2,-y+1/2
+-103 -y,-z+1/2,-x+1/2
+-104 -x,-y+1/2,+z+1/2
+-105 +z,-x+1/2,-y+1/2
+-106 -y,+z+1/2,-x+1/2
+-107 +z,-x+1/2,+y+1/2
+-108 +y,+z+1/2,-x+1/2
+-109 -y,+z+1/2,+x+1/2
+-110 +x,-y+1/2,+z+1/2
+-111 +z,+x+1/2,-y+1/2
+-112 -x,+y+1/2,+z+1/2
+-113 -y,-x+1/2,-z+1/2
+-114 -z,-y+1/2,-x+1/2
+-115 -x,-z+1/2,-y+1/2
+-116 -y,-x+1/2,+z+1/2
+-117 +z,-y+1/2,-x+1/2
+-118 -x,+z+1/2,-y+1/2
+-119 +z,-y+1/2,+x+1/2
+-120 +x,+z+1/2,-y+1/2
+-121 -x,+z+1/2,+y+1/2
+-122 +y,-x+1/2,+z+1/2
+-123 +z,+y+1/2,-x+1/2
+-124 -y,+x+1/2,+z+1/2
+201 +x+1/2,+y,+z+1/2
+202 +z+1/2,+x,+y+1/2
+203 +y+1/2,+z,+x+1/2
+204 +x+1/2,+y,-z+1/2
+205 -z+1/2,+x,+y+1/2
+206 +y+1/2,-z,+x+1/2
+207 -z+1/2,+x,-y+1/2
+208 -y+1/2,-z,+x+1/2
+209 +y+1/2,-z,-x+1/2
+210 -x+1/2,+y,-z+1/2
+211 -z+1/2,-x,+y+1/2
+212 +x+1/2,-y,-z+1/2
+213 +y+1/2,+x,+z+1/2
+214 +z+1/2,+y,+x+1/2
+215 +x+1/2,+z,+y+1/2
+216 +y+1/2,+x,-z+1/2
+217 -z+1/2,+y,+x+1/2
+218 +x+1/2,-z,+y+1/2
+219 -z+1/2,+y,-x+1/2
+220 -x+1/2,-z,+y+1/2
+221 +x+1/2,-z,-y+1/2
+222 -y+1/2,+x,-z+1/2
+223 -z+1/2,-y,+x+1/2
+224 +y+1/2,-x,-z+1/2
+-201 -x+1/2,-y,-z+1/2
+-202 -z+1/2,-x,-y+1/2
+-203 -y+1/2,-z,-x+1/2
+-204 -x+1/2,-y,+z+1/2
+-205 +z+1/2,-x,-y+1/2
+-206 -y+1/2,+z,-x+1/2
+-207 +z+1/2,-x,+y+1/2
+-208 +y+1/2,+z,-x+1/2
+-209 -y+1/2,+z,+x+1/2
+-210 +x+1/2,-y,+z+1/2
+-211 +z+1/2,+x,-y+1/2
+-212 -x+1/2,+y,+z+1/2
+-213 -y+1/2,-x,-z+1/2
+-214 -z+1/2,-y,-x+1/2
+-215 -x+1/2,-z,-y+1/2
+-216 -y+1/2,-x,+z+1/2
+-217 +z+1/2,-y,-x+1/2
+-218 -x+1/2,+z,-y+1/2
+-219 +z+1/2,-y,+x+1/2
+-220 +x+1/2,+z,-y+1/2
+-221 -x+1/2,+z,+y+1/2
+-222 +y+1/2,-x,+z+1/2
+-223 +z+1/2,+y,-x+1/2
+-224 -y+1/2,+x,+z+1/2
+301 +x+1/2,+y+1/2,+z
+302 +z+1/2,+x+1/2,+y
+303 +y+1/2,+z+1/2,+x
+304 +x+1/2,+y+1/2,-z
+305 -z+1/2,+x+1/2,+y
+306 +y+1/2,-z+1/2,+x
+307 -z+1/2,+x+1/2,-y
+308 -y+1/2,-z+1/2,+x
+309 +y+1/2,-z+1/2,-x
+310 -x+1/2,+y+1/2,-z
+311 -z+1/2,-x+1/2,+y
+312 +x+1/2,-y+1/2,-z
+313 +y+1/2,+x+1/2,+z
+314 +z+1/2,+y+1/2,+x
+315 +x+1/2,+z+1/2,+y
+316 +y+1/2,+x+1/2,-z
+317 -z+1/2,+y+1/2,+x
+318 +x+1/2,-z+1/2,+y
+319 -z+1/2,+y+1/2,-x
+320 -x+1/2,-z+1/2,+y
+321 +x+1/2,-z+1/2,-y
+322 -y+1/2,+x+1/2,-z
+323 -z+1/2,-y+1/2,+x
+324 +y+1/2,-x+1/2,-z
+-301 -x+1/2,-y+1/2,-z
+-302 -z+1/2,-x+1/2,-y
+-303 -y+1/2,-z+1/2,-x
+-304 -x+1/2,-y+1/2,+z
+-305 +z+1/2,-x+1/2,-y
+-306 -y+1/2,+z+1/2,-x
+-307 +z+1/2,-x+1/2,+y
+-308 +y+1/2,+z+1/2,-x
+-309 -y+1/2,+z+1/2,+x
+-310 +x+1/2,-y+1/2,+z
+-311 +z+1/2,+x+1/2,-y
+-312 -x+1/2,+y+1/2,+z
+-313 -y+1/2,-x+1/2,-z
+-314 -z+1/2,-y+1/2,-x
+-315 -x+1/2,-z+1/2,-y
+-316 -y+1/2,-x+1/2,+z
+-317 +z+1/2,-y+1/2,-x
+-318 -x+1/2,+z+1/2,-y
+-319 +z+1/2,-y+1/2,+x
+-320 +x+1/2,+z+1/2,-y
+-321 -x+1/2,+z+1/2,+y
+-322 +y+1/2,-x+1/2,+z
+-323 +z+1/2,+y+1/2,-x
+-324 -y+1/2,+x+1/2,+z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Cu Cu1 0.28322 0.28322 0.0 1.0 Uiso 0.0033 48
+O O11 0.31698 0.24421 -0.05251 1.0 Uiso 0.01111 192
+C C1 0.32187 0.17813 -0.11334 1.0 Uiso 0.00732 96
+C C10 0.29644 0.20356 -0.06939 1.0 Uiso 0.00993 96
+C C2 0.36497 0.20129 -0.13503 1.0 Uiso 0.01122 96
+H H1 0.38019 0.23407 -0.11982 1.0 Uiso 0.02832 96
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+_atom_type_scat_length_neutron
+_atom_type_scat_source
+Cu 48.0 0.7718 International_Tables_Vol_C
+O 192.0 0.5805 International_Tables_Vol_C
+C 288.0 0.6648 International_Tables_Vol_C
+H 96.0 -0.3741 International_Tables_Vol_C
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Cu1 Cu1 O11 87.1082 -301_544 1_555 n
+Cu1 Cu1 O11 87.1082 -301_544 4_555 n
+Cu1 Cu1 O11 87.1082 -301_544 13_555 n
+Cu1 Cu1 O11 87.1082 -301_544 16_555 n
+O11 Cu1 O11 91.0089(9) 1_555 4_555 n
+O11 Cu1 O11 88.6993(9) 1_555 13_555 n
+O11 Cu1 O11 174.2164 1_555 16_555 n
+O11 Cu1 O11 174.2164 4_555 13_555 n
+O11 Cu1 O11 88.6993(9) 4_555 16_555 n
+O11 Cu1 O11 91.0089(9) 13_555 16_555 n
+Cu1 O11 C10 119.83790(20) 1_555 1_555 n
+C10 C1 C2 118.71480(30) 1_555 1_555 n
+C10 C1 C2 118.71480(30) 1_555 208_554 n
+C2 C1 C2 122.1938(5) 1_555 208_554 n
+O11 C10 O11 125.9374(4) 1_555 -316_544 n
+O11 C10 C1 117.02840(20) 1_555 1_555 n
+O11 C10 C1 117.02840(20) -316_544 1_555 n
+C1 C2 C1 117.73590(30) 1_555 214_554 n
+C1 C2 H1 121.1330(5) 1_555 1_555 n
+C1 C2 H1 121.13100(20) 214_554 1_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Cu1 Cu1 2.470100(30) -301_445 n
+Cu1 O11 1.935110(20) 1_555 n
+Cu1 O11 1.935110(20) 4_555 n
+Cu1 O11 1.935110(20) 13_555 n
+Cu1 O11 1.935110(20) 16_555 n
+O11 Cu1 1.935110(20) 1_555 n
+O11 C10 1.276910(10) 1_555 n
+C1 C10 1.492730(10) 1_555 n
+C1 C2 1.407000(10) 1_555 n
+C1 C2 1.407000(10) 208_554 n
+C10 O11 1.276910(10) 1_555 n
+C10 O11 1.276910(10) -316_445 n
+C10 C1 1.492730(10) 1_555 n
+C2 C1 1.407000(10) 1_555 n
+C2 C1 1.407000(10) 214_554 n
+C2 H1 1.030710(10) 1_555 n
+H1 C2 1.030710(10) 1_555 n

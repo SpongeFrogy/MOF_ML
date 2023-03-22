@@ -1,0 +1,202 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-22 12:36:02 +0200 (Tue, 22 Mar 2016) $
+#$Revision: 178955 $
+#$URL: svn://www.crystallography.net/cod/cif/4/11/84/4118432.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4118432
+loop_
+_publ_author_name
+'Valentina Colombo'
+'Carmen Montoro'
+'Angelo Maspero'
+'Giovanni Palmisano'
+'Norberto Masciocchi'
+'Simona Galli'
+'Elisa Barea'
+'Jorge A. R. Navarro'
+_publ_contact_author_address
+;
+      Dipartimento di Scienza e Alta Tecnologia,
+      Universita' dell'Insubria,
+      Via Valleggio 11, 22100 Como, Italy
+;
+_publ_contact_author_email       valentina.colombo@uninsubria.it
+_publ_contact_author_fax         +39-031-2386630
+_publ_contact_author_name        'Dr. Valentina Colombo'
+_publ_contact_author_phone       +39-031-2386627
+_publ_section_title
+;
+ Tuning the Adsorption Properties of Isoreticular Pyrazolate-Based
+ Metal-Organic Frameworks through Ligand Modification
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              12830
+_journal_page_last               12843
+_journal_paper_doi               10.1021/ja305267m
+_journal_volume                  134
+_journal_year                    2012
+_chemical_formula_moiety         'C30 H32 N10 Ni O8 S2'
+_chemical_formula_structural     'Ni1 (C12 H9 N4 S1 O3)2 (C3 H7 N1 O1)2'
+_chemical_formula_sum            'C30 H32 N10 Ni O8 S2'
+_chemical_formula_weight         783.46
+_chemical_name_systematic
+;
+?
+;
+_space_group_crystal_system      monoclinic
+_space_group_IT_number           14
+_space_group_name_H-M_alt        'P 1 21/c 1'
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 94.065(15)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   7.5258(13)
+_cell_length_b                   16.3434(45)
+_cell_length_c                   17.6314(49)
+_cell_measurement_temperature    298
+_cell_volume                     2163.2(9)
+_computing_cell_refinement       'TOPAS, Bruker AXS 2005, Karlsruhe, Germany'
+_computing_publication_material  'TOPAS, Bruker AXS 2005, Karlsruhe, Germany'
+_computing_structure_refinement  'TOPAS, Bruker AXS 2005, Karlsruhe, Germany'
+_computing_structure_solution    'TOPAS, Bruker AXS 2005, Karlsruhe, Germany'
+_diffrn_ambient_temperature      298
+_diffrn_detector_type            'Bruker Lynxeye linear PSD'
+_diffrn_measurement_device_type  'Bruker AXS D8 Advance'
+_diffrn_radiation_monochromator  'Ni filter'
+_diffrn_source_target            Cu
+_diffrn_source_type              'sealed X-ray tube'
+_exptl_crystal_density_diffrn    1.20
+_exptl_crystal_F_000             782
+_pd_char_colour                  yellow
+_pd_char_particle_morphology     plate-like
+_pd_instr_location               ' ?'
+_pd_meas_2theta_range_inc        0.02
+_pd_meas_2theta_range_max        55
+_pd_meas_2theta_range_min        6
+_pd_meas_number_of_points        2451
+_pd_meas_scan_method             step
+_pd_proc_2theta_range_inc        0.02
+_pd_proc_2theta_range_max        55
+_pd_proc_2theta_range_min        6
+_pd_proc_ls_background_function  'Chebychev polynomial'
+_pd_proc_ls_profile_function     'fundamental parameters approach'
+_pd_proc_ls_prof_R_factor        0.046
+_pd_proc_ls_prof_wR_expected     0.032
+_pd_proc_ls_prof_wR_factor       0.062
+_pd_spec_mounting
+;
+packed powder pellet
+;
+_pd_spec_mount_mode              reflection
+_pd_spec_shape                   flat_sheet
+_pd_spec_size_axial              5
+_pd_spec_size_equat              5
+_pd_spec_size_thick              0.2
+_refine_ls_extinction_method     none
+_refine_ls_matrix_type           fullcycle
+_refine_ls_number_parameters     29
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          .01
+_refine_ls_structure_factor_coef Inet
+_refine_ls_weighting_details     'w = 1/[Y~i~]'
+_refine_ls_weighting_scheme      calc
+_cod_data_source_file            ja305267m_si_002.cif
+_cod_data_source_block           C30H32N10NiO8S2
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/[Y~i~]' was changed to 'calc'.
+New tag '_refine_ls_weighting_details' was created. The value of the
+new tag was set to 'w = 1/[Y~i~]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        2163.14(92)
+_cod_database_code               4118432
+loop_
+_symmetry_equiv_pos_as_xyz
+'-x, -y, -z'
+'-x, y+1/2, -z+1/2'
+'x, -y+1/2, z+1/2'
+'x, y, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_B_iso_or_equiv
+Ni Ni 2 0 0 0 1 3
+C1 C 4 0.5477872 0.7033147 0.6434671 1 5
+C2 C 4 0.6924539 0.6681933 0.6847435 1 5
+S S 4 0.7775717 0.5729487 0.6561733 1 5
+O1 O 4 0.9239851 0.5448688 0.7141637 1 5
+O2 O 4 0.853044 0.582246 0.5789251 1 5
+O3 O 4 0.6285735 0.509979 0.6508137 1 5
+C3 C 4 0.7702766 0.7078686 0.7484565 1 5
+H3 H 4 0.8691495 0.6838648 0.776667 1 5
+C4 C 4 0.7034326 0.7826653 0.7708931 1 5
+C5 C 4 0.5587659 0.8177867 0.7296166 1 5
+H5 H 4 0.5130812 0.8689067 0.7449509 1 5
+C6 C 4 0.4809432 0.7781114 0.6659036 1 5
+H6 H 4 0.3820703 0.8021152 0.6376931 1 5
+C7 C 4 0.4666052 0.6619268 0.5770039 1 5
+C8 C 4 0.5417279 0.6510024 0.50982 1 5
+H8 H 4 0.6566046 0.6691479 0.4981954 1 5
+N1 N 4 0.423522 0.6095407 0.4621994 1 5
+H1N H 4 0.4413315 0.593639 0.4114702 1 5
+N2 N 4 0.275344 0.5948403 0.4999522 1 5
+C9 C 4 0.3019709 0.6272166 0.5709053 1 5
+H9 H 4 0.2199663 0.6258299 0.6094421 1 5
+C10 C 4 0.7846146 0.8240532 0.8373562 1 5
+C11 C 4 0.7539074 0.9026722 0.8580612 1 5
+H11 H 4 0.6755033 0.9401157 0.8315186 1 5
+N3 N 4 0.8551481 0.9182769 0.9234352 1 5
+N4 N 4 0.9484255 0.8493021 0.9431336 1 5
+H4N H 4 1.029754 0.8429196 0.98645 1 5
+C12 C 4 0.9048334 0.7910687 0.8899339 1 5
+H12 H 4 0.9503654 0.7368665 0.8895642 1 5
+Oa O 4 0.29482 0.6383198 0.8424899 1 5
+Ha H 4 0.3389623 0.5236895 0.8541125 1 5
+N1a N 4 0.5317356 0.5875971 0.92201 1 5
+C11a C 4 0.377366 0.5770975 0.8688739 1 5
+C21a C 4 0.592373 0.6719255 0.9453176 1 5
+H21a H 4 0.5160068 0.7113323 0.9203856 1 5
+H22a H 4 0.5887559 0.6777105 0.9987997 1 5
+H23a H 4 0.7108147 0.6802176 0.9315498 1 5
+C31a C 4 0.6307909 0.5141303 0.9536708 1 5
+H31a H 4 0.5757885 0.4657883 0.933384 1 5
+H32a H 4 0.7507335 0.5162573 0.9402294 1 5
+H33a H 4 0.6286748 0.5137502 1.007479 1 5
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_source
+C C 'International Tables for Crystallography (Vol. IV)'
+H H 'International Tables for Crystallography (Vol. IV)'
+Ni Ni 'International Tables for Crystallography (Vol. IV)'
+N N 'International Tables for Crystallography (Vol. IV)'
+O O 'International Tables for Crystallography (Vol. IV)'
+S S 'International Tables for Crystallography (Vol. IV)'
+loop_
+_diffrn_radiation_type
+_diffrn_radiation_wavelength
+CuK\a~1~ 1.54056
+CuK\a~2~ 1.54439
+loop_
+_pd_proc_wavelength
+1.540562
+1.544390

@@ -1,0 +1,198 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 18:30:21 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178814 $
+#$URL: svn://www.crystallography.net/cod/cif/4/10/68/4106804.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4106804
+loop_
+_publ_author_name
+'Patr\'icia Silva'
+'Fabiana Vieira'
+'Ana C. Gomes'
+'Duarte Ananias'
+'Jos\'e A. Fernandes'
+'Sofia M. Bruno'
+'Ros\'ario Soares'
+'Anabela A. Valente'
+'Jo\~ao Rocha'
+'Filipe A. Almeida Paz'
+_publ_contact_author_address
+; Department of Chemistry
+  University of Aveiro
+  CICECO
+  3810-193
+  Aveiro
+  Portugal
+;
+_publ_contact_author_email       filipe.paz@ua.pt
+_publ_contact_author_fax         '+351 234 370084'
+_publ_contact_author_name        'Dr Filipe A. Almeida Paz'
+_publ_contact_author_phone       '+351 234 370200'
+_publ_section_title
+;
+ Thermal Transformation of a Layered Multifunctional Network into a
+ Metal-Organic Framework Based on a Polymeric Organic Linker
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              15120
+_journal_page_last               15138
+_journal_paper_doi               10.1021/ja205243w
+_journal_volume                  133
+_journal_year                    2011
+_chemical_formula_moiety         'C3 H7 La N O8 P3'
+_chemical_formula_sum            'C3 H7 La N O8 P3'
+_chemical_formula_weight         416.92
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           29
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'P 2c -2ac'
+_symmetry_space_group_name_H-M   'P c a 21'
+_audit_creation_date             '25 July 2011'
+_audit_creation_method           'Manual editing plus fullprof.2k'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            4
+_cell_length_a                   8.7247(5)
+_cell_length_b                   11.3493(3)
+_cell_length_c                   9.7728(6)
+_cell_measurement_temperature    298
+_cell_volume                     967.70(9)
+_computing_molecular_graphics    'Crystal Impact Diamond 3.1f'
+_computing_structure_refinement  FULLPROF
+_computing_structure_solution    eXpo2004
+_diffrn_ambient_temperature      298
+_diffrn_detector_type            'X Celerator detector'
+_diffrn_measurement_method       Bragg-Brentano
+_diffrn_radiation_monochromator  none
+_diffrn_radiation_type           X-ray
+_diffrn_source                   'X-ray tube'
+_diffrn_source_target            Cu
+_exptl_crystal_density_diffrn    2.863
+_pd_instr_location
+; 
+Conventional powder diffractometer instrument belonging to the 
+University of Aveiro and located at the Central Analytical Laboratory
+;
+_pd_meas_2theta_range_inc        0.010027
+_pd_meas_2theta_range_max        94.99717
+_pd_meas_2theta_range_min        3.58101
+_pd_meas_number_of_points        9118
+_pd_meas_scan_method             cont
+_pd_proc_2theta_range_inc        0.010027
+_pd_proc_2theta_range_max        94.9972
+_pd_proc_2theta_range_min        3.5810
+_pd_proc_ls_background_function  'Fixed Points'
+_pd_proc_ls_pref_orient_corr
+; 
+ Modified March's function along the [010] vector.
+ G1 refined to about 0.654(2) which is consistent
+ with the platy crystal habit of the material (as
+ revealed by the SEM pictures).
+;
+_pd_proc_ls_profile_function     'Thompson-Cox-Hastings pseudo-Voigt'
+_pd_proc_ls_prof_R_factor        4.3264
+_pd_proc_ls_prof_wR_expected     6.5169
+_pd_proc_ls_prof_wR_factor       5.6114
+_pd_proc_wavelength              1.540560
+_pd_spec_mounting
+; 
+ Glass slide
+;
+_pd_spec_mount_mode              Reflection
+_pd_spec_shape                   'Flat sheet'
+_refine_ls_number_parameters     65
+_refine_ls_number_reflns         1020
+_refine_ls_number_restraints     51
+_refine_ls_R_I_factor            6.9277
+_cod_data_source_file            ja205243w_si_002_3.cif
+_cod_data_source_block           2II
+_cod_original_cell_volume        967.69(8)
+_cod_database_code               4106804
+#BEGIN Tags that were not found in dictionaries:
+_pd_proc_ls_prof_cr_factor       12.8986
+_pd_proc_ls_prof_cwr_factor      11.7803
+_pd_proc_ls_prof_cwr_expected    13.6812
+_pd_proc_ls_prof_chi2            0.7414
+_pd_proc_ls_prof_echi2           0.7474
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x+1/2,y,z+1/2
+x+1/2,-y,z
+-x,-y,z+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_type_symbol
+La1 0.7475(7) -0.0100(3) 0.8855(6) 0.1041(14) 1.00000 Uiso La
+P1 0.5530(10) -0.1140(7) 0.6312(10) 0.076(3) 1.00000 Uiso P
+O1 0.4913(9) -0.0719(11) 0.7713(8) 0.089(4) 1.00000 Uiso O
+O2 0.7309(8) -0.0939(10) 0.6361(8) 0.089(4) 1.00000 Uiso O
+O3 0.4962(9) -0.0313(10) 0.5199(9) 0.089(4) 1.00000 Uiso O
+C1 0.5062(13) -0.2597(6) 0.6018(9) 0.089(4) 1.00000 Uiso C
+H1A 0.44067 -0.26240 0.52144 0.05066 1.00000 Uiso H
+H1B 0.59633 -0.30258 0.58121 0.05066 1.00000 Uiso H
+N1 0.4258(11) -0.3204(14) 0.7118(16) 0.089(4) 1.00000 Uiso N
+H1 0.41189 -0.26013 0.77243 0.05066 1.00000 Uiso H
+P2 0.6236(10) -0.3414(6) 0.9375(10) 0.076(3) 1.00000 Uiso P
+O4 0.5017(9) -0.3191(8) 1.0504(9) 0.089(4) 1.00000 Uiso O
+O5 0.7180(15) -0.4498(9) 0.9897(14) 0.089(4) 1.00000 Uiso O
+O6 0.7204(14) -0.2428(7) 0.9014(15) 0.089(4) 1.00000 Uiso O
+C2 0.5181(12) -0.4005(8) 0.7915(9) 0.089(4) 1.00000 Uiso C
+H2A 0.59118 -0.43517 0.73003 0.05066 1.00000 Uiso H
+H2B 0.45319 -0.46175 0.82415 0.05066 1.00000 Uiso H
+P3 0.1450(10) -0.2503(6) 0.5984(9) 0.076(3) 1.00000 Uiso P
+C3 0.2672(8) -0.3550(9) 0.6847(14) 0.089(4) 1.00000 Uiso C
+H3A 0.21946 -0.37202 0.77313 0.05066 1.00000 Uiso H
+H3B 0.26749 -0.42554 0.63422 0.05066 1.00000 Uiso H
+O7 0.0886(15) -0.1606(9) 0.6979(10) 0.089(4) 1.00000 Uiso O
+O8 0.2250(15) -0.2033(8) 0.4754(10) 0.089(4) 1.00000 Uiso O
+loop_
+_atom_type_symbol
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+LA 20.57800 2.94817 19.59900 0.24448 11.37270 18.77260 3.28719 133.12399
+2.14678 -1.71600 9.03600
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+P 6.43450 1.90670 4.17910 27.15700 1.78000 0.52600 1.49080 68.16450 1.11490
+0.28300 0.43400
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+O 3.04850 13.27710 2.28680 5.70110 1.54630 0.32390 0.86700 32.90890 0.25080
+0.04700 0.03200
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+C 2.31000 20.84390 1.02000 10.20750 1.58860 0.56870 0.86500 51.65120 0.21560
+0.01700 0.00900
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+H 0.49300 10.51090 0.32291 26.12570 0.14019 3.14236 0.04081 57.79970 0.00304
+0.00000 0.00000
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+N 12.21260 0.00570 3.13220 9.89330 2.01250 28.99750 1.16630 0.58260 -11.52900
+0.02900 0.01800
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5

@@ -1,0 +1,291 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 17:54:35 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178796 $
+#$URL: svn://www.crystallography.net/cod/cif/4/10/50/4105063.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4105063
+loop_
+_publ_author_name
+'Prashant Jain'
+'Vasanth Ramachandran'
+'Ronald J. Clark'
+'Hai Dong Zhou'
+'Brian H. Toby'
+'Naresh S. Dalal'
+'Harold W. Kroto'
+'Anthony K. Cheetham'
+_publ_section_title
+;
+ Multiferroic Behavior Associated with an Order-Disorder Hydrogen Bonding
+ Transition in Metal-Organic Frameworks (MOFs) with the Perovskite ABX3
+ Architecture
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              13625
+_journal_page_last               13627
+_journal_paper_doi               10.1021/ja904156s
+_journal_volume                  131
+_journal_year                    2009
+_chemical_formula_moiety         'C9 H9 Fe3 O18, 3(C2 H6 N)'
+_chemical_formula_sum            'C15 H27 Fe3 N2.97 O18'
+_chemical_formula_weight         704.53
+_chemical_name_common            Dimethylammoniumironformate
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           167
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  '-R 3 2"c'
+_symmetry_space_group_name_H-M   'R -3 c :H'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                120.00
+_cell_formula_units_Z            2
+_cell_length_a                   8.241(2)
+_cell_length_b                   8.241
+_cell_length_c                   22.545(6)
+_cell_measurement_temperature    273(2)
+_cell_volume                     1326.0(5)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      273(2)
+_diffrn_measured_fraction_theta_full 0.941
+_diffrn_measured_fraction_theta_max 0.941
+_diffrn_measurement_device_type  'CCD area Detector'
+_diffrn_measurement_method       'Omega scan'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0560
+_diffrn_reflns_av_sigmaI/netI    0.0493
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       7
+_diffrn_reflns_limit_k_min       -10
+_diffrn_reflns_limit_l_max       22
+_diffrn_reflns_limit_l_min       -26
+_diffrn_reflns_number            1107
+_diffrn_reflns_theta_full        26.71
+_diffrn_reflns_theta_max         26.71
+_diffrn_reflns_theta_min         3.38
+_exptl_absorpt_coefficient_mu    1.705
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   SADABS
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    1.765
+_exptl_crystal_description       Cube
+_exptl_crystal_F_000             720
+_exptl_crystal_size_max          0.2
+_exptl_crystal_size_mid          0.1
+_exptl_crystal_size_min          0.1
+_refine_diff_density_max         0.401
+_refine_diff_density_min         -0.487
+_refine_diff_density_rms         0.092
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.074
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     31
+_refine_ls_number_reflns         301
+_refine_ls_number_restraints     3
+_refine_ls_restrained_S_all      1.069
+_refine_ls_R_factor_all          0.0561
+_refine_ls_R_factor_gt           0.0403
+_refine_ls_shift/su_max          0.002
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0503P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0883
+_refine_ls_wR_factor_ref         0.0930
+_reflns_number_gt                228
+_reflns_number_total             301
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ja904156s_si_001.cif
+_cod_data_source_block           Dimethylammoniumironformate
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_absorpt_correction_type' value 'multi scan' changed to
+'multi-scan' according to the built-in table from CIF Core dictionary
+named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        1326.2(5)
+_cod_original_sg_symbol_H-M      'R -3 c'
+_cod_database_code               4105063
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'y, x, -z+1/2'
+'x-y, -y, -z+1/2'
+'-x, -x+y, -z+1/2'
+'x+2/3, y+1/3, z+1/3'
+'-y+2/3, x-y+1/3, z+1/3'
+'-x+y+2/3, -x+1/3, z+1/3'
+'y+2/3, x+1/3, -z+5/6'
+'x-y+2/3, -y+1/3, -z+5/6'
+'-x+2/3, -x+y+1/3, -z+5/6'
+'x+1/3, y+2/3, z+2/3'
+'-y+1/3, x-y+2/3, z+2/3'
+'-x+y+1/3, -x+2/3, z+2/3'
+'y+1/3, x+2/3, -z+7/6'
+'x-y+1/3, -y+2/3, -z+7/6'
+'-x+1/3, -x+y+2/3, -z+7/6'
+'-x, -y, -z'
+'y, -x+y, -z'
+'x-y, x, -z'
+'-y, -x, z-1/2'
+'-x+y, y, z-1/2'
+'x, x-y, z-1/2'
+'-x+2/3, -y+1/3, -z+1/3'
+'y+2/3, -x+y+1/3, -z+1/3'
+'x-y+2/3, x+1/3, -z+1/3'
+'-y+2/3, -x+1/3, z-1/6'
+'-x+y+2/3, y+1/3, z-1/6'
+'x+2/3, x-y+1/3, z-1/6'
+'-x+1/3, -y+2/3, -z+2/3'
+'y+1/3, -x+y+2/3, -z+2/3'
+'x-y+1/3, x+2/3, -z+2/3'
+'-y+1/3, -x+2/3, z+1/6'
+'-x+y+1/3, y+2/3, z+1/6'
+'x+1/3, x-y+2/3, z+1/6'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Fe Fe 0.0000 1.0000 0.0000 0.0229(4) Uani 1 6 d S
+O O -0.0084(3) 0.7830(3) 0.05427(11) 0.0355(7) Uani 1 1 d .
+C1 C 0.1217(6) 0.7884(6) 0.0833 0.0298(12) Uani 1 2 d S
+C2 C 0.6667 0.3333 0.0297(3) 0.059(2) Uani 1 3 d SD
+N N 0.5804(14) 0.2471(14) 0.0833 0.035(3) Uani 0.33 2 d SPD
+H1 H 0.231(10) 0.898(10) 0.0833 0.059(19) Uiso 1 2 d S
+H2 H 0.788(10) 0.358(19) 0.012(3) 0.29(6) Uiso 1 1 d D
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Fe 0.0195(4) 0.0195(4) 0.0299(7) 0.000 0.000 0.0097(2)
+O 0.0314(14) 0.0324(15) 0.0439(15) 0.0049(12) -0.0062(12) 0.0168(12)
+C1 0.0249(19) 0.0249(19) 0.040(3) -0.0010(12) 0.0010(12) 0.012(2)
+C2 0.066(3) 0.066(3) 0.046(4) 0.000 0.000 0.0330(16)
+N 0.032(5) 0.032(5) 0.047(8) 0.004(3) -0.004(3) 0.021(5)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Fe Fe 0.3463 0.8444 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O Fe O 180.0 2_675 20_455
+O Fe O 90.53(10) 2_675 3_465
+O Fe O 89.47(10) 20_455 3_465
+O Fe O 89.47(10) 2_675 19_575
+O Fe O 90.53(10) 20_455 19_575
+O Fe O 89.47(10) 3_465 19_575
+O Fe O 90.53(10) 2_675 .
+O Fe O 89.47(10) 20_455 .
+O Fe O 90.53(10) 3_465 .
+O Fe O 180.00(11) 19_575 .
+O Fe O 89.47(10) 2_675 21_665
+O Fe O 90.53(10) 20_455 21_665
+O Fe O 180.00(11) 3_465 21_665
+O Fe O 90.53(10) 19_575 21_665
+O Fe O 89.47(10) . 21_665
+C1 O Fe 127.4(3) . .
+O C1 O 126.4(5) . 16_454
+O C1 H1 116.8(2) . .
+O C1 H1 116.8(2) 16_454 .
+N C2 N 52.1(8) 2_655 .
+N C2 N 52.1(8) 2_655 3_665
+N C2 N 52.1(8) . 3_665
+N C2 H2 84(4) 2_655 .
+N C2 H2 130.8(18) . .
+N C2 H2 120(8) 3_665 .
+N N N 60.000(2) 3_665 2_655
+N N C2 64.0(4) 3_665 16_544
+N N C2 64.0(4) 2_655 16_544
+N N C2 64.0(4) 3_665 .
+N N C2 64.0(4) 2_655 .
+C2 N C2 119.1(9) 16_544 .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Fe O 2.139(2) 2_675
+Fe O 2.139(2) 20_455
+Fe O 2.139(2) 3_465
+Fe O 2.139(2) 19_575
+Fe O 2.139(2) .
+Fe O 2.139(2) 21_665
+O C1 1.239(3) .
+C1 O 1.239(3) 16_454
+C1 H1 0.90(8) .
+C2 N 1.403(7) 2_655
+C2 N 1.403(7) .
+C2 N 1.403(7) 3_665
+C2 H2 1.002(10) .
+N N 1.23(2) 3_665
+N N 1.23(2) 2_655
+N C2 1.403(7) 16_544
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_4
+O Fe O C1 -28.6(2) 2_675 .
+O Fe O C1 151.4(2) 20_455 .
+O Fe O C1 -119.08(15) 3_465 .
+O Fe O C1 118.5(5) 19_575 .
+O Fe O C1 60.92(15) 21_665 .
+Fe O C1 O -176.5(2) . 16_454
+N C2 N N 67.6(3) 2_655 3_665
+N C2 N N -67.6(3) 3_665 2_655
+N C2 N C2 33.81(13) 2_655 16_544
+N C2 N C2 -33.81(13) 3_665 16_544

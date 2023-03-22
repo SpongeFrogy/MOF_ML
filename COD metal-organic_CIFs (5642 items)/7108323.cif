@@ -1,0 +1,353 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-26 03:33:53 +0200 (Sat, 26 Mar 2016) $
+#$Revision: 180187 $
+#$URL: svn://www.crystallography.net/cod/cif/7/10/83/7108323.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7108323
+loop_
+_publ_author_name
+'Hui Yang'
+'Fei Wang'
+'Yao Kang'
+'Jian Zhang'
+_publ_section_title
+;
+ Chiral assembly of dodecahedral cavities into porous metal-organic
+ frameworks
+;
+_journal_name_full               Chem.Commun.
+_journal_page_first              9424
+_journal_paper_doi               10.1039/c2cc35024f
+_journal_volume                  48
+_journal_year                    2012
+_chemical_formula_moiety         'C156 H162 Cu3 N14 O86 Zn15'
+_chemical_formula_sum            'C156 H162 Cu3 N14 O86 Zn15'
+_chemical_formula_weight         4780.54
+_chemical_name_systematic
+;
+?
+;
+_space_group_IT_number           197
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  'I 2 2 3'
+_symmetry_space_group_name_H-M   'I 2 3'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            2
+_cell_length_a                   23.3483(2)
+_cell_length_b                   23.3483(2)
+_cell_length_c                   23.3483(2)
+_cell_measurement_reflns_used    1547
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      27.6593
+_cell_measurement_theta_min      2.7532
+_cell_volume                     12728.16(19)
+_computing_cell_refinement       'SMART and SAINT (Siemens,1994)'
+_computing_data_collection       'SMART (Siemens, 1996)'
+_computing_data_reduction        'XPREP in SHELXTL (Siemens, 1994)'
+_computing_molecular_graphics    SHELXTL
+_computing_publication_material  SHELXTL
+_computing_structure_refinement  SHELXTL
+_computing_structure_solution    SHELXTL
+_diffrn_ambient_temperature      293(2)
+_diffrn_detector_area_resol_mean none
+_diffrn_measured_fraction_theta_full 0.995
+_diffrn_measured_fraction_theta_max 0.995
+_diffrn_measurement_device_type  'Bruker P4'
+_diffrn_measurement_method       '\w scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0300
+_diffrn_reflns_av_sigmaI/netI    0.0597
+_diffrn_reflns_limit_h_max       20
+_diffrn_reflns_limit_h_min       -16
+_diffrn_reflns_limit_k_max       27
+_diffrn_reflns_limit_k_min       -15
+_diffrn_reflns_limit_l_max       26
+_diffrn_reflns_limit_l_min       -9
+_diffrn_reflns_number            5422
+_diffrn_reflns_theta_full        24.98
+_diffrn_reflns_theta_max         24.98
+_diffrn_reflns_theta_min         2.76
+_diffrn_standards_decay_%        none
+_diffrn_standards_interval_count none
+_diffrn_standards_interval_time  none
+_diffrn_standards_number         none
+_exptl_absorpt_coefficient_mu    1.687
+_exptl_absorpt_correction_T_max  0.6228
+_exptl_absorpt_correction_T_min  0.6228
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   'SADABS (Sheldrick, 1996)'
+_exptl_crystal_colour            green
+_exptl_crystal_density_diffrn    1.247
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       cube
+_exptl_crystal_F_000             3754
+_exptl_crystal_size_max          0.31
+_exptl_crystal_size_mid          0.31
+_exptl_crystal_size_min          0.31
+_refine_diff_density_max         0.753
+_refine_diff_density_min         -0.343
+_refine_diff_density_rms         0.082
+_refine_ls_abs_structure_details 'Flack H D (1983), Acta Cryst. A39, 876-881'
+_refine_ls_abs_structure_Flack   -0.01(2)
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   0.994
+_refine_ls_hydrogen_treatment    constr
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     158
+_refine_ls_number_reflns         3479
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      0.994
+_refine_ls_R_factor_all          0.0608
+_refine_ls_R_factor_gt           0.0488
+_refine_ls_shift/su_max          0.020
+_refine_ls_shift/su_mean         0.003
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0710P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.1173
+_refine_ls_wR_factor_ref         0.1230
+_reflns_number_gt                2848
+_reflns_number_total             3479
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            c2cc35024f.txt
+_cod_data_source_block           2
+_cod_original_cell_volume        12728.17(19)
+_cod_original_sg_symbol_H-M      I23
+_cod_database_code               7108323
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z'
+'-x, y, -z'
+'x, -y, -z'
+'z, x, y'
+'z, -x, -y'
+'-z, -x, y'
+'-z, x, -y'
+'y, z, x'
+'-y, z, -x'
+'y, -z, -x'
+'-y, -z, x'
+'x+1/2, y+1/2, z+1/2'
+'-x+1/2, -y+1/2, z+1/2'
+'-x+1/2, y+1/2, -z+1/2'
+'x+1/2, -y+1/2, -z+1/2'
+'z+1/2, x+1/2, y+1/2'
+'z+1/2, -x+1/2, -y+1/2'
+'-z+1/2, -x+1/2, y+1/2'
+'-z+1/2, x+1/2, -y+1/2'
+'y+1/2, z+1/2, x+1/2'
+'-y+1/2, z+1/2, -x+1/2'
+'y+1/2, -z+1/2, -x+1/2'
+'-y+1/2, -z+1/2, x+1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Cu1 Cu 0.5000 1.0000 0.93843(4) 0.0326(2) Uani 0.50 2 d SP
+Zn1 Zn 0.5000 1.0000 0.93843(4) 0.0326(2) Uani 0.50 2 d SP
+Zn2 Zn 0.70604(3) 0.81759(3) 0.76031(3) 0.0461(2) Uani 1 1 d .
+O1 O 0.56290(18) 0.94596(18) 0.95175(17) 0.0529(11) Uani 1 1 d .
+O2 O 0.5563(2) 0.93479(18) 1.04596(17) 0.0531(11) Uani 1 1 d .
+O3 O 0.6956(2) 0.83064(18) 0.84180(17) 0.0590(12) Uani 1 1 d .
+O4 O 0.7394(2) 0.75647(19) 0.88191(17) 0.0568(12) Uani 1 1 d .
+O5 O 0.7286(3) 0.7345(3) 1.0942(2) 0.117(3) Uani 1 1 d .
+O6 O 0.6661(2) 0.7858(2) 1.1402(2) 0.0700(14) Uani 1 1 d .
+O7 O 0.5000 1.0000 0.8517(2) 0.076(2) Uani 1 2 d S
+O8 O 0.74587(18) 0.74587(18) 0.74587(18) 0.0432(16) Uani 1 3 d S
+C1 C 0.6206(2) 0.8765(2) 0.9959(3) 0.0408(13) Uani 1 1 d .
+C2 C 0.6455(2) 0.8612(2) 0.9436(3) 0.0410(14) Uani 1 1 d .
+H2A H 0.6346 0.8802 0.9103 0.049 Uiso 1 1 calc R
+C3 C 0.6860(2) 0.8182(2) 0.9407(2) 0.0384(12) Uani 1 1 d .
+C4 C 0.7014(2) 0.7903(2) 0.9899(2) 0.0496(15) Uani 1 1 d .
+H4A H 0.7290 0.7617 0.9883 0.060 Uiso 1 1 calc R
+C5 C 0.6765(3) 0.8039(3) 1.0426(2) 0.0483(15) Uani 1 1 d .
+C6 C 0.6362(3) 0.8463(3) 1.0444(3) 0.0503(16) Uani 1 1 d .
+H6A H 0.6188 0.8551 1.0791 0.060 Uiso 1 1 calc R
+C7 C 0.5767(2) 0.9232(2) 0.9984(3) 0.0404(12) Uani 1 1 d .
+C8 C 0.7081(2) 0.8004(2) 0.8828(2) 0.0399(13) Uani 1 1 d .
+C9 C 0.6942(3) 0.7724(3) 1.0949(3) 0.064(2) Uani 1 1 d .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Cu1 0.0341(5) 0.0269(4) 0.0368(5) 0.000 0.000 0.0034(4)
+Zn1 0.0341(5) 0.0269(4) 0.0368(5) 0.000 0.000 0.0034(4)
+Zn2 0.0315(4) 0.0649(5) 0.0421(4) 0.0149(4) 0.0008(3) 0.0028(3)
+O1 0.057(3) 0.056(3) 0.046(3) 0.013(2) 0.004(2) 0.024(2)
+O2 0.067(3) 0.046(3) 0.047(3) 0.003(2) 0.007(2) 0.021(2)
+O3 0.079(3) 0.058(3) 0.040(2) 0.014(2) 0.012(2) 0.019(2)
+O4 0.072(3) 0.054(3) 0.045(3) -0.007(2) -0.001(2) 0.028(2)
+O5 0.136(6) 0.144(6) 0.072(4) 0.020(4) 0.000(4) 0.100(5)
+O6 0.093(4) 0.065(3) 0.052(3) 0.014(2) -0.013(3) 0.022(3)
+O7 0.127(6) 0.062(4) 0.038(3) 0.000 0.000 0.026(5)
+O8 0.0432(16) 0.0432(16) 0.0432(16) 0.0006(18) 0.0006(18) 0.0006(18)
+C1 0.046(3) 0.041(3) 0.036(3) 0.002(3) 0.001(3) 0.011(2)
+C2 0.049(4) 0.035(3) 0.038(3) 0.018(3) -0.001(3) 0.014(3)
+C3 0.038(3) 0.046(3) 0.032(3) 0.002(3) 0.008(2) 0.011(3)
+C4 0.050(3) 0.052(4) 0.046(4) 0.000(3) 0.006(3) 0.023(3)
+C5 0.064(4) 0.049(4) 0.032(3) 0.003(3) -0.004(3) 0.017(3)
+C6 0.070(4) 0.049(4) 0.033(3) -0.003(3) 0.011(3) 0.007(3)
+C7 0.040(3) 0.038(3) 0.043(3) 0.007(3) 0.008(3) 0.008(2)
+C8 0.031(3) 0.043(3) 0.046(3) 0.005(3) 0.010(3) 0.001(3)
+C9 0.073(5) 0.079(5) 0.038(4) 0.008(3) -0.004(3) 0.029(4)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Zn Zn 0.2839 1.4301 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cu Cu 0.3201 1.2651 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O1 Cu1 O1 161.7(2) . 2_675
+O1 Cu1 O7 99.13(12) . .
+O1 Cu1 O7 99.13(12) 2_675 .
+O1 Cu1 O2 88.23(18) . 4_577
+O1 Cu1 O2 88.53(18) 2_675 4_577
+O7 Cu1 O2 100.27(12) . 4_577
+O1 Cu1 O2 88.53(18) . 3_657
+O1 Cu1 O2 88.23(18) 2_675 3_657
+O7 Cu1 O2 100.27(12) . 3_657
+O2 Cu1 O2 159.5(2) 4_577 3_657
+O1 Cu1 Zn1 80.87(12) . 3_657
+O1 Cu1 Zn1 80.87(12) 2_675 3_657
+O7 Cu1 Zn1 180.000(1) . 3_657
+O2 Cu1 Zn1 79.73(12) 4_577 3_657
+O2 Cu1 Zn1 79.73(12) 3_657 3_657
+O1 Cu1 Cu1 80.87(12) . 3_657
+O1 Cu1 Cu1 80.87(12) 2_675 3_657
+O7 Cu1 Cu1 180.000(1) . 3_657
+O2 Cu1 Cu1 79.73(12) 4_577 3_657
+O2 Cu1 Cu1 79.73(12) 3_657 3_657
+Zn1 Cu1 Cu1 0.0 3_657 3_657
+O6 Zn2 O3 114.7(2) 18_466 .
+O6 Zn2 O8 117.2(3) 18_466 .
+O3 Zn2 O8 111.42(16) . .
+O6 Zn2 O4 100.9(2) 18_466 9
+O3 Zn2 O4 101.47(19) . 9
+O8 Zn2 O4 109.12(17) . 9
+C7 O1 Cu1 127.0(3) . .
+C7 O2 Zn1 124.7(4) . 3_657
+C7 O2 Cu1 124.7(4) . 3_657
+Zn1 O2 Cu1 0.00(5) 3_657 3_657
+C8 O3 Zn2 130.2(4) . .
+C8 O4 Zn2 130.0(4) . 5
+C9 O6 Zn2 115.0(4) . 24_665
+Zn2 O8 Zn2 110.19(19) 5 9
+Zn2 O8 Zn2 110.19(19) 5 .
+Zn2 O8 Zn2 110.19(19) 9 .
+C6 C1 C2 118.4(5) . .
+C6 C1 C7 121.2(6) . .
+C2 C1 C7 120.4(5) . .
+C3 C2 C1 120.9(5) . .
+C3 C2 H2A 119.5 . .
+C1 C2 H2A 119.5 . .
+C4 C3 C2 118.9(5) . .
+C4 C3 C8 122.3(5) . .
+C2 C3 C8 118.6(5) . .
+C3 C4 C5 121.5(5) . .
+C3 C4 H4A 119.2 . .
+C5 C4 H4A 119.2 . .
+C6 C5 C4 118.5(5) . .
+C6 C5 C9 121.8(5) . .
+C4 C5 C9 119.7(5) . .
+C5 C6 C1 121.7(5) . .
+C5 C6 H6A 119.1 . .
+C1 C6 H6A 119.1 . .
+O2 C7 O1 126.0(5) . .
+O2 C7 C1 117.2(5) . .
+O1 C7 C1 116.7(5) . .
+O3 C8 O4 126.5(5) . .
+O3 C8 C3 117.5(5) . .
+O4 C8 C3 116.0(5) . .
+O5 C9 O6 122.4(6) . .
+O5 C9 C5 123.0(6) . .
+O6 C9 C5 114.4(6) . .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Cu1 O1 1.961(4) .
+Cu1 O1 1.961(4) 2_675
+Cu1 O7 2.026(6) .
+Cu1 O2 2.045(4) 4_577
+Cu1 O2 2.045(4) 3_657
+Cu1 Zn1 2.8753(16) 3_657
+Cu1 Cu1 2.8753(16) 3_657
+Zn2 O6 1.916(4) 18_466
+Zn2 O3 1.942(4) .
+Zn2 O8 1.945(2) .
+Zn2 O4 1.970(4) 9
+O1 C7 1.254(7) .
+O2 C7 1.237(7) .
+O2 Zn1 2.045(4) 3_657
+O2 Cu1 2.045(4) 3_657
+O3 C8 1.224(7) .
+O4 C8 1.260(7) .
+O4 Zn2 1.970(4) 5
+O5 C9 1.195(8) .
+O6 C9 1.282(8) .
+O6 Zn2 1.916(4) 24_665
+O8 Zn2 1.945(2) 5
+O8 Zn2 1.945(2) 9
+C1 C6 1.383(8) .
+C1 C2 1.398(8) .
+C1 C7 1.498(7) .
+C2 C3 1.382(7) .
+C2 H2A 0.9300 .
+C3 C4 1.369(8) .
+C3 C8 1.505(8) .
+C4 C5 1.398(8) .
+C4 H4A 0.9300 .
+C5 C6 1.367(8) .
+C5 C9 1.484(8) .
+C6 H6A 0.9300 .
+loop_
+_platon_squeeze_void_nr
+_platon_squeeze_void_average_x
+_platon_squeeze_void_average_y
+_platon_squeeze_void_average_z
+_platon_squeeze_void_volume
+_platon_squeeze_void_count_electrons
+1 -0.020 -0.004 -0.001 7976.4 982.0

@@ -1,0 +1,121 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 22:30:59 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176467 $
+#$URL: svn://www.crystallography.net/cod/cif/4/10/33/4103390.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4103390
+loop_
+_publ_author_name
+'Michael Maes'
+'Frederik Vermoortele'
+'Luc Alaerts'
+'Sarah Couck'
+'Christine E. A. Kirschhock'
+'Joeri F. M. Denayer'
+'Dirk E. De Vos'
+_publ_contact_author_email       christine.kirschhock@biw.kuleuven.be
+_publ_section_title
+;
+ Separation of Styrene and Ethylbenzene on Metal-Organic Frameworks:
+ Analogous Structures with Different Adsorption Mechanisms
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              15277
+_journal_page_last               15285
+_journal_paper_doi               10.1021/ja106142x
+_journal_volume                  132
+_journal_year                    2010
+_chemical_formula_sum            'C15.45 Al O5'
+_chemical_formula_weight         292.60
+_space_group_IT_number           74
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-I 2b 2'
+_symmetry_space_group_name_H-M   'I m m a'
+_audit_author_name               ceak
+_audit_creation_date             2010-02-07T18:43
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   6.6424(4)
+_cell_length_b                   16.0436(11)
+_cell_length_c                   13.8471(10)
+_cell_volume                     1475.66(17)
+_computing_structure_refinement  GSAS
+_pd_block_id                     2010-02-07T18:43|53STYRES_phase1|ceak||
+_pd_phase_name                   'MIL53 ht with styrene'
+_refine_ls_goodness_of_fit_all   4.26
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     140
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          3.98
+_refine_ls_shift/su_mean         0.86
+_cod_data_source_file            ja106142x_si_003_1.cif
+_cod_data_source_block           53STYRES_phase_1
+_cod_original_cell_volume        1475.64(16)
+_cod_original_formula_sum        'C15.45 Al O5.00'
+_cod_database_code               4103390
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y,+z
+3 +x,-y+1/2,+z
+4 -x,-y+1/2,+z
+-1 -x,-y,-z
+-2 +x,-y,-z
+-3 -x,+y+1/2,-z
+-4 +x,+y+1/2,-z
+101 +x+1/2,+y+1/2,+z+1/2
+102 -x+1/2,+y+1/2,+z+1/2
+103 +x+1/2,-y,+z+1/2
+104 -x+1/2,-y,+z+1/2
+-101 -x+1/2,-y+1/2,-z+1/2
+-102 +x+1/2,-y+1/2,-z+1/2
+-103 -x+1/2,+y,-z+1/2
+-104 +x+1/2,+y,-z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Al Al 0.25 0.25 0.75 1.0 Uiso 0.0024(33) 4
+O O(1) 0.0 0.25 0.693 1.0 Uiso 0.018(6) 4
+C c11 0.70(4) -0.128(17) -0.1837(8) 0.2329(20) Uiso 0.198(28) 16
+C c12 0.38(5) -0.097(20) -0.2416(8) 0.2329(20) Uiso 0.198(28) 16
+C c21 0.58(5) -0.082(14) -0.2416(8) 0.2329(20) Uiso 0.198(28) 16
+C c22 0.62(4) -0.189(20) -0.1257(8) 0.2329(20) Uiso 0.198(28) 16
+C c31 0.297(31) -0.158(16) -0.1836(8) 0.2329(20) Uiso 0.198(28) 16
+C c32 0.42(4) -0.204(14) -0.1256(8) 0.2329(20) Uiso 0.198(28) 16
+C cm1 0.122(7) -0.282(5) -0.0675(8) 0.2329(20) Uiso 0.198(28) 16
+C cm2 0.344(15) -0.265(9) -0.0676(8) 0.2329(20) Uiso 0.198(28) 16
+C C35 0.0 -0.1(24) 0.0637(29) 0.5 Uiso 0.0357(27) 8
+C C36 0.1786(31) -0.0327(19) 0.0319(25) 0.5 Uiso 0.0357(27) 16
+C C37 0.17861 0.03266 -0.03187 0.5 Uiso 0.0357(27) 16
+C C38 0.0 0.1(24) -0.06374 0.5 Uiso 0.0357(27) 8
+C C39 0.0 -0.13682 0.1335(28) 0.5 Uiso 0.0357(27) 8
+O C40 0.16949 -0.1678 0.1638(10) 0.5 Uiso 0.0357(27) 16
+C C41 0.0 0.1368(21) -0.13353 0.5 Uiso 0.0357(27) 8
+O C42 0.1695(23) 0.1678(8) -0.16377 0.5 Uiso 0.0357(27) 16
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+Al 4.0
+O 20.0
+C 61.817
+loop_
+_pd_block_diffractogram_id
+2010-02-07T18:43|53STYRES_H_01|ceak|combi
