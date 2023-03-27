@@ -59,7 +59,7 @@ class Dataset:
             for j, key in enumerate(self.token_dicts[col].keys()):
                 self.token_dicts[col][key] = newVals[j, i]
         del newVals
-        self.df = pd.DataFrame(dataScaledArr, index=self.df.index)
+        self.df = pd.DataFrame(dataScaledArr, index=self.df.index, columns=scaler.get_feature_names_out())
     
 
     # get results
