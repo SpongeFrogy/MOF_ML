@@ -1,0 +1,1 @@
+modole `get_cif_params.py` located `cif2mof_timeout(file, csv_path)` that write row of cif params to csv file
