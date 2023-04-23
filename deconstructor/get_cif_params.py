@@ -10,4 +10,6 @@ def cif2mof_timeout(file, csv_path):
     cif2mofid_csv(file, csv_path=csv_path)
 
 
+if __name__ == '__main__':
+    cif2mof_timeout("CIFs/cifs/(1) 10.1038_s41467-021-24188-4/as-MOF-5-C7 2040922.cif", 'test.csv')
 
